@@ -1105,6 +1105,7 @@ div.gallery img,div.gif, div.video
 div.desc
 {
   padding: 15px;
+　font-size: calc(8px + 0.5vw);
   text-align: center;  
   display:block
 }
