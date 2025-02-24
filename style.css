@@ -1483,6 +1483,9 @@ div.robot a:visited
     clear: both;
 }
 
+div.warningColor
+{color: red;}
+
 footer {
 
         margin-top: auto;
