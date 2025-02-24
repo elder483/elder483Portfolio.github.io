@@ -199,6 +199,12 @@ ul.topnav li
     float: right;
 } 
 
+ul.topnav li.language a:hover
+{  
+    /*Red text*/
+    color: red;
+    background-color: white;}
+
 ul.topnav li a:hover:not(.active)
 {
      background-color: #111;
