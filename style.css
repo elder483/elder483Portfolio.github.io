@@ -202,14 +202,15 @@ ul.topnav li
 ul.topnav li.language a:hover
 {  
     /*Red text*/
-    color: red;
-    background-color: white;}
+    color: red;}
 
 ul.topnav li a:hover:not(.active)
 {
      background-color: #111;
 }
 
+ul.topnav li.language a:hover:not(.active)
+{  background-color: white;}
 
 /*This is the active page i.e. home page will be a set colour when active.*/
 ul.topnav a.active
