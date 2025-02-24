@@ -92,30 +92,35 @@ h1
 {
     background-color: rgba(173,173,173,0.5);
      border: 3px solid rgb(255,25,175);
+     font-family: "Rampart One", sans-serif !important;
 }
 
 .hauntedHelper h1
 {
     background-color: rgba(17,93,80,0.5);
      border: 3px solid rgb(56,234,230);
+    font-family: "Potta One", sans-serif !important;
 }
 
 .quantumAxle h1
 {
     background-color: rgba(70,0,111,0.5);
      border: 3px solid rgb(134,164,255);
+    font-family: "Mochiy Pop One", sans-serif !important;
 }
 
 .doomedFlux h1
 {
     background-color: rgba(173,9,57,0.5);
      border: 3px solid rgb(68,0,2);
+    font-family: "New Tegomin", sans-serif !important;
 }
 
 .static h1
 {
     background-color: rgba(31,88,75,0.5);
      border: 3px solid rgb(0,239,255);
+    font-family: "DotGothic16", sans-serif !important;
 }
 
 .aKOM h1
@@ -129,37 +134,45 @@ h1
 {
      background-color: rgba(255,157,2, 0.5);
      border: 3px solid rgb(241,22,72);
+    font-family: "Hachi Maru Pop", sans-serif !important;
 }
 
 .fotp h1
 {
      background-color: rgba(6,0,0, 0.5);
      border: 3px solid rgb(223,122,0);
+    font-family: "Yuji Boku", sans-serif !important;
 }
 
 .robot h1
 {
      background-color: rgba(237,28,36, 0.5);
      border: 3px solid rgb(64,221,217);
+    font-family: "RocknRoll One", sans-serif !important;
 }
 
 .sakuraCell h1
 {
      background-color: rgba(255,170,184, 0.5);
      border: 3px solid rgb(114,46,56);
+    font-family: "M PLUS 1 Code", sans-serif !important;
 }
 
 .suzaku h1
 {
      background-color: rgba(37,234,250, 0.5);
      border: 3px solid rgb(255,158,46);
+    font-family: "Stick", sans-serif !important;
 }
 
 .pdisorder h1
 {
      background-color: rgba(245,20,20, 0.5);
      border: 3px solid rgb(237,233,69);
+    font-family: "Reggae One", sans-serif !important;
 }
+
+
 
 ul.topnav
 {
@@ -512,7 +525,32 @@ h2
     font-family: "Dela Gothic One", sans-serif !important;
 }
 
+.coinOp h2{font-family: "Rampart One", sans-serif !important;}
+
+.hauntedHelper h2{font-family: "Potta One", sans-serif !important;}
+
+.quantumAxle h2{font-family: "Mochiy Pop One", sans-serif !important;}
+
+.doomedFlux h2 {font-family: "New Tegomin", sans-serif !important;}
+
+.static h2 {font-family: "DotGothic16", sans-serif !important;}
+
 .aKOM h2{font-family: "Yuji Mai", sans-serif !important;}
+
+.rem h2 {font-family: "Hachi Maru Pop", sans-serif !important;}
+
+.fotp h2 {font-family: "Yuji Boku", sans-serif !important;}
+
+.pDisorder h2{font-family: "Reggae One", sans-serif !important;}
+
+.suzaku h2{font-family: "Stick", sans-serif !important;}
+
+.sakuraCell h2{font-family: "M PLUS 1 Code", sans-serif !important;}
+
+.robot h2{font-family: "RocknRoll One", sans-serif !important;}
+
+
+
 h3
 {
     text-decoration: none;
@@ -531,7 +569,32 @@ h3
 {
     font-family: "Dela Gothic One", sans-serif !important;
 }
+
+.coinOp h3{font-family: "Rampart One", sans-serif !important;}
+
+.hauntedHelper h3{font-family: "Potta One", sans-serif !important;}
+
+.quantumAxle h3{font-family: "Mochiy Pop One", sans-serif !important;}
+
+.doomedFlux h3 {font-family: "New Tegomin", sans-serif !important;}
+
+.static h3 {font-family: "DotGothic16", sans-serif !important;}
+
 .aKOM h3 {font-family: "Yuji Mai", sans-serif !important;}
+
+.rem h3 {font-family: "Hachi Maru Pop", sans-serif !important;}
+
+.fotp h3 {font-family: "Yuji Boku", sans-serif !important;}
+
+.pDisorder h3{font-family: "Reggae One", sans-serif !important;}
+
+.suzaku h3{font-family: "Stick", sans-serif !important;}
+
+.sakuraCell h3{font-family: "M PLUS 1 Code", sans-serif !important;}
+
+.robot h3{font-family: "RocknRoll One", sans-serif !important;}
+
+
 
 h4
 {
@@ -550,13 +613,40 @@ h4
     font-family: "Dela Gothic One", sans-serif !important;
 }
 
+
+
+.coinOp h4{font-family: "Rampart One", sans-serif !important;}
+
+.hauntedHelper h4{font-family: "Potta One", sans-serif !important;}
+
+.quantumAxle h4{font-family: "Mochiy Pop One", sans-serif !important;}
+
+.doomedFlux h4 {font-family: "New Tegomin", sans-serif !important;}
+
+.static h4 {font-family: "DotGothic16", sans-serif !important;}
+
 .aKOM h4 {font-family: "Yuji Mai", sans-serif !important;}
+
+.rem h4 {font-family: "Hachi Maru Pop", sans-serif !important;}
+
+.fotp h4 {font-family: "Yuji Boku", sans-serif !important;}
+
+.pDisorder h4{font-family: "Reggae One", sans-serif !important;}
+
+.suzaku h4{font-family: "Stick", sans-serif !important;}
+
+.sakuraCell h4{font-family: "M PLUS 1 Code", sans-serif !important;}
+
+.robot h4{font-family: "RocknRoll One", sans-serif !important;}
+
+
   #coinopcapitalTitle h4
     {
          -webkit-text-stroke-width: 1px;
          -webkit-text-stroke-color: rgb(255,25,175);
          text-shadow: 4px 4px 4px rgba(255,25,175,0.75);
     }
+
 #hauntedHelperTitle h4
  {
          -webkit-text-stroke-width: 1px;
@@ -665,7 +755,30 @@ h5
     font-family: "Dela Gothic One", sans-serif !important;
 }
 
+.coinOp h5{font-family: "Rampart One", sans-serif !important;}
+
+.hauntedHelper h5{font-family: "Potta One", sans-serif !important;}
+
+.quantumAxle h5{font-family: "Mochiy Pop One", sans-serif !important;}
+
+.doomedFlux h5 {font-family: "New Tegomin", sans-serif !important;}
+
+.static h5 {font-family: "DotGothic16", sans-serif !important;}
+
 .aKOM h5 {font-family: "Yuji Mai", sans-serif !important;}
+
+.rem h5 {font-family: "Hachi Maru Pop", sans-serif !important;}
+
+.fotp h5 {font-family: "Yuji Boku", sans-serif !important;}
+
+.pDisorder h5{font-family: "Reggae One", sans-serif !important;}
+
+.suzaku h5{font-family: "Stick", sans-serif !important;}
+
+.sakuraCell h5{font-family: "M PLUS 1 Code", sans-serif !important;}
+
+.robot h5{font-family: "RocknRoll One", sans-serif !important;}
+
 /*
 .galleryWrapper
 {
