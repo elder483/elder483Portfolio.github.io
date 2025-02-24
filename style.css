@@ -650,7 +650,7 @@ h5
     justify-content: center;
     align-items: center;
     position: relative;
-    font-family: "Noto Sans","Noto Sans Japanese";
+    font-family: "Kosugi Maru", serif;
     font-style: bold;
     font-size: clamp(18px,1vw,25px);
     color: white;
