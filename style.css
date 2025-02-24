@@ -34,7 +34,7 @@ h1
     justify-content: center;
     align-items: center; 
     position: relative; /*Was relative*/
-    font-family: "Noto Sans","Noto Sans Japanese";
+    font-family: "Kosugi Maru", serif;
     font-style: bold;
     font-size: clamp(30px, 5vw, 65px);
     border: 3px solid #115F63;
@@ -499,7 +499,7 @@ h2
     justify-content: center;
     align-items: center;
     position: relative;
-    font-family: "Noto Sans","Noto Sans Japanese";
+    font-family: "Kosugi Maru", serif;
     font-style: bold;
     font-size: clamp(28px, 4vw, 55px);
     color: white;
@@ -518,7 +518,7 @@ h3
     justify-content: center;
     align-items: center;
     position: relative;
-    font-family: "Noto Sans","Noto Sans Japanese";
+    font-family: "Kosugi Maru", serif;
     font-style: bold;
     font-size: clamp(24px,3vw,45px);
     color: white;
@@ -537,7 +537,7 @@ h4
     justify-content: center;
     align-items: center;
     position: relative;
-    font-family: "Noto Sans","Noto Sans Japanese";
+    font-family: "Kosugi Maru", serif;
     font-style: bold;
     font-size: clamp(20px,2vw,35px);
     color: white;
@@ -1361,7 +1361,7 @@ footer {
 
         margin-top: auto;
         width:100vw; /*Was 100vw*/
-        font-family: "Noto Sans","Noto Sans Japanese";
+        font-family: "Kosugi Maru", serif;
         font-style: bold;
         font-size: 20px;
         text-align: center;
