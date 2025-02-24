@@ -469,10 +469,10 @@ background-color: rgba(13,17,22,100);
 
 }
 
-main.rd2 
+/*main.rd2 
 {
-    font-family: /*"Kosugi Maru", serif;*/"Dela Gothic One", sans-serif !important;
-}
+    font-family: /*"Kosugi Maru", serif;"Dela Gothic One", sans-serif !important;
+}*/
 
 /*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet. WORKS FINE*/
 
