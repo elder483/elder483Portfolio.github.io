@@ -1173,8 +1173,28 @@ div.video iframe
     max-width: 100%;
     max-height: 100%;
 }
+
+/*WAS div.gif * div.video ONLY*/
+div.gallery img,div.gif video, div.video
+{
+ display:block;
+ width: 100%; /*was width: 100% Then max-width: 100%*/
+ height: auto;
+}
+
+@media screen and (max-width: 500px)
+{
+    /*Changed div.gif to div.gif video*/
+   div.gallery img,div.gif video, div.video iframe {
+    display: block;
+    max-width: 100%; /*Was 100%*/
+    width: 100%; /*Was 100%*/
+    height: auto;
+    margin:0 auto;
+    }
+}
 /*Orientations for videos for mobile/tablets.*/
-/*
+
 @media screen and (max-width: 768px) and (orientation: portrait){
 div.video iframe{
 
@@ -1208,14 +1228,8 @@ div.video iframe{
     height: 270px;
     }
 }
-*/
-/*WAS div.gif * div.video ONLY*/
-div.gallery img,div.gif video, div.video
-{
- display:block;
- width: 100%; /*was width: 100% Then max-width: 100%*/
- height: auto;
-}
+
+
 
 /*made some thing for tablets and mobile may need to be adjusted.*/
 /*
@@ -1288,18 +1302,6 @@ div.desc {
     max-width: 100%;
       margin: 0px 6px;
  }
-}
-
-@media screen and (max-width: 500px)
-{
-    /*Changed div.gif to div.gif video*/
-   div.gallery img,div.gif video, div.video iframe {
-    display: block;
-    max-width: 100%; /*Was 100%*/
-    width: 100%; /*Was 100%*/
-    height: auto;
-    margin:0 auto;
-    }
 }
 
 ul li
