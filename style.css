@@ -881,7 +881,8 @@ div.gif, div.video, div.gallery {
 
 @media screen and (max-width: 500px) {
     div.initialImage{
-        width: 75%;
+        width: 200px;
+        height: 150px;
     }
 }
 
