@@ -1209,8 +1209,8 @@ div.video iframe{
     }
 }
 */
-
-div.gallery img,div.gif, div.video
+/*WAS div.gif * div.video ONLY*/
+div.gallery img,div.gif video, div.video iframe
 {
  display:block;
  width: 100%; /*was width: 100% Then max-width: 100%*/
