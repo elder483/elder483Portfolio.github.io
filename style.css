@@ -502,12 +502,13 @@ background-color: rgba(13,17,22,100);
     }
 
 /*Home Page*/
+/*
 .index
 {display: flex;
   flex-direction: column;
 min-height: 100vh;
 }
-
+*/
 main
 {
     flex-grow: 1;
