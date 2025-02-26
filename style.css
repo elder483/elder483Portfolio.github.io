@@ -1277,14 +1277,14 @@ div.desc {
 @media only screen and (max-width: 768px)
 {.responsive
  {
-    width: 49.99999%;
+    max-width: 49.99999%;
     margin: 0px 6px;
  }
 }
 @media only screen and (max-width: 500px)
 {.responsive
  {
-    width: 100%;
+    max-width: 100%;
       margin: 0px 6px;
  }
 }
