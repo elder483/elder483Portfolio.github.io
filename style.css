@@ -1218,6 +1218,7 @@ div.gallery img,div.gif, div.video
 }
 
 /*made some thing for tablets and mobile may need to be adjusted.*/
+/*
 @media screen and (max-width: 768px)
 { 
     div.gallery img,div.gif, div.video{
@@ -1234,8 +1235,8 @@ div.gallery img,div.gif, div.video
    div.gallery img,div.gif, div.video {
     display: block;
     max-width: 100%; /*Was 100%*/
-    width: 100%; /*Was 100%*/
-    height:auto;
+  /*  width: 100%; /*Was 100%*/
+/*    height:auto;
     margin:0 auto;
     }
 }
