@@ -1182,10 +1182,11 @@ div.gallery img,div.gif video, div.video
  height: auto;
 }
 
+/*THIS SHOULD TARGET THE CONTAINERS*/
 @media screen and (max-width: 500px)
 {
     /*Changed div.gif to div.gif video*/
-   div.gallery img,div.gif video, div.video iframe {
+   div.gallery,div.gif, div.video {
     display: block;
     max-width: 100%; /*Was 100%*/
     width: 100%; /*Was 100%*/
@@ -1193,9 +1194,21 @@ div.gallery img,div.gif video, div.video
     margin:0 auto;
     }
 }
+
+@media screen and (max-width: 500px)
+{
+    /*Changed div.gif to div.gif video*/
+   div.gallery img,div.gif video, div.video iframe {
+    display: block;
+    max-width: 100%; /*Was 100%*/
+    height: auto;
+    margin:0 auto;
+    }
+}
+
 /*Orientations for videos for mobile/tablets.*/
 
-@media screen and (max-width: 768px) and (orientation: portrait){
+/*@media screen and (max-width: 768px) and (orientation: portrait){
 div.video iframe{
 
     width: 480px;
@@ -1227,7 +1240,7 @@ div.video iframe{
     width: 480px;
     height: 270px;
     }
-}
+}*/
 
 
 
