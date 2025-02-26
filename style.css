@@ -1259,7 +1259,7 @@ div.desc
   display:block
 }
 
-/*Padding for mobiles & Tablets below
+/*Padding for mobiles & Tablets below*/
 @media screen and (max-width: 768px){
 div.desc{
     padding: 12px;
@@ -1272,7 +1272,7 @@ div.desc {
     }
 }
 
-*/
+
 
 .responsive
 {
