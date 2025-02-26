@@ -877,6 +877,14 @@ div.gif, div.video, div.gallery {
     
     border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
 
+/*Mobile*/
+
+@media screen and (max-width: 500px) {
+    div.initialImage{
+        width: 75%;
+    }
+}
+
 
 div.index.gallery
 
