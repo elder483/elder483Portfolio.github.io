@@ -877,6 +877,17 @@ div.gif, div.video, div.gallery {
     border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
 
 
+div.index.gallery
+
+{
+       border: 6px solid #115F63;
+}
+
+ div.index.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(232,201,0); box-shadow: 2px 2px 2px 2px rgba(232,201,0,0.75);}
+
+
+
+
 
  div.gif:hover  ,div.video:hover, div.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid #E8C900; box-shadow: 2px 2px 2px 2px rgba(255,253,154,0.5);}
 
