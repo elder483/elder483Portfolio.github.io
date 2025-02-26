@@ -1262,13 +1262,13 @@ div.desc
 /*Padding for mobiles & Tablets below*/
 @media screen and (max-width: 768px){
 div.desc{
-    padding: 12px;
+    padding: 10px;
 
     }
 }
 @media screen and (max-width: 500px){
 div.desc {
-    padding: 10px;
+    padding: 5px;
     }
 }
 
