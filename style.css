@@ -880,7 +880,7 @@ div.gif, div.video, div.gallery {
 /*Mobile*/
 
 @media screen and (max-width: 500px) {
-    div.initialImage{
+    .initialImage img{
         width: 200px;
         height: 150px;
     }
