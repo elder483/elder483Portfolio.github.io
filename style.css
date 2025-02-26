@@ -1274,7 +1274,7 @@ div.desc
   padding: 15px;
 　font-size: calc(8px + 0.5vw);
   text-align: center;  
-  display:block
+  display:block;
 }
 
 /*Padding for mobiles & Tablets below*/
@@ -1286,7 +1286,7 @@ div.desc{
 }
 @media screen and (max-width: 500px){
 div.desc {
-    padding: 5px;
+    padding: 0px;
     }
 }
 
