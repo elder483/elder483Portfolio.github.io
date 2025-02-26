@@ -412,8 +412,8 @@ li a:hover, .dropdown:hover .dropbtn
 
 /*Attempting some class interaction with AKOM*/
 
-
-
+/*Removed New skills and mechanics lists.*/
+/*
 .mechanics ol li
 {
     display: list-item;
@@ -424,9 +424,9 @@ li a:hover, .dropdown:hover .dropbtn
     padding: 5px;
     justify-content: center;
 }
+*/
 
-
-#newSkills ul li
+/*#newSkills ul li
 {
 
     display: list-item;
@@ -436,7 +436,8 @@ li a:hover, .dropdown:hover .dropbtn
     margin: 0;
     padding: 5px;
     justify-content: center;
-}
+}*/
+
 /*
 .container
 {
