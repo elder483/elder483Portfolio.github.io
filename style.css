@@ -1187,7 +1187,7 @@ div.gallery img,div.gif video, div.video
 {
     /*Changed div.gif to div.gif video*/
    div.gallery,div.gif, div.video {
-    display: block;
+    display: block !important;
     max-width: 100%; /*Was 100%*/
     width: 100%; /*Was 100%*/
     /*height: auto;*/
@@ -1199,7 +1199,7 @@ div.gallery img,div.gif video, div.video
 {
     /*Changed div.gif to div.gif video*/
    div.gallery img,div.gif video, div.video iframe {
-    display: block;
+    display: block !important;
     max-width: 100%; /*Was 100%*/
     height: auto;
     margin:0 auto;
