@@ -1230,17 +1230,7 @@ div.gallery img,div.gif video, div.video
      }
 }
 */
-@media screen and (max-width: 500px)
-{
-    /*Changed div.gif to div.gif video*/
-   div.gallery img,div.gif video, div.video {
-    display: block;
-    max-width: 100%; /*Was 100%*/
-    width: 100% auto; /*Was 100%*/
-    height: 100% auto;
-    margin:0 auto;
-    }
-}
+
 
 /*Originally just width and height*/
 
@@ -1298,6 +1288,18 @@ div.desc {
     max-width: 100%;
       margin: 0px 6px;
  }
+}
+
+@media screen and (max-width: 500px)
+{
+    /*Changed div.gif to div.gif video*/
+   div.gallery img,div.gif video, div.video iframe {
+    display: block;
+    max-width: 100%; /*Was 100%*/
+    width: 100% auto; /*Was 100%*/
+    height: 100% auto;
+    margin:0 auto;
+    }
 }
 
 ul li
