@@ -384,6 +384,9 @@ li a:hover, .dropdown:hover .dropbtn
 
 .language 
 {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
     margin-bottom: 15px; 
       /*transform: translateY(-15px);*/
 }
@@ -392,9 +395,10 @@ li a:hover, .dropdown:hover .dropbtn
 {
     /*margin-top: 15px;*/
     /*align-self: end;*/
-     padding: 0px;
+     display: inline-block;
+     width: 24px;
      height: auto;
-     transform: translateY(15px);
+     /*transform: translateY(15px);*/
     /*padding-top: 15px;*/
 }
 
