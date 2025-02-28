@@ -382,9 +382,10 @@ li a:hover, .dropdown:hover .dropbtn
 {display: block;
  }
 
-.language text
+.language 
 {
-      transform: translateY(-15px);
+    position: absolute;
+      /*transform: translateY(-15px);*/
 }
 
 .language img
