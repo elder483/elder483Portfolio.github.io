@@ -384,7 +384,7 @@ li a:hover, .dropdown:hover .dropbtn
 
 .language 
 {
-    position: fixed;
+    position: relative;
       /*transform: translateY(-15px);*/
 }
 
