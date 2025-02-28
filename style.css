@@ -205,6 +205,11 @@ ul.topnav li.language a:hover
     /*Red text*/
     color: red;}
 
+ul.topnav li.langauge a,.dropbtn
+{
+    padding-top: 12px;
+}
+
 ul.topnav li a:hover:not(.active)
 {
      background-color: #111;
