@@ -211,7 +211,8 @@ ul.topnav li a:hover:not(.active)
 }
 
 ul.topnav li.language a:hover:not(.active)
-{  background-color: white;}
+{  background-color: white;
+    transform: scaleY(0.5);}
 
 /*This is the active page i.e. home page will be a set colour when active.*/
 ul.topnav a.active
