@@ -378,7 +378,7 @@ li a:hover, .dropdown:hover .dropbtn
 {display: block;
  }
 
-span.flagEmoji{font-family: sans-serif;}
+span.flagEmoji{font-family: 'EmojiOne Color', 'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif;}
 
 @media screen and (max-width: 768px)
 {
