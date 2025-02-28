@@ -380,7 +380,8 @@ li a:hover, .dropdown:hover .dropbtn
 
 .language img
 {
-    align-self: center;
+    margin-top: 15px;
+    /*align-self: center;*/
     /*padding-top: 15px;*/
 }
 
