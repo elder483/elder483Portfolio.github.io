@@ -377,6 +377,9 @@ li a:hover, .dropdown:hover .dropbtn
 .dropdown:hover .dropdown-content
 {display: block;
  }
+
+span.flagEmoji{font-family: sans-serif;}
+
 @media screen and (max-width: 768px)
 {
      ul.topnav li {float: none;}
