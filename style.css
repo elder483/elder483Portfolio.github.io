@@ -195,7 +195,6 @@ ul.topnav li
 
  ul.topnav li.language
 {
-   margin-top: 0;
    margin-right: 10px;
     float: right;
 } 
@@ -383,7 +382,7 @@ li a:hover, .dropdown:hover .dropbtn
 {
     /*margin-top: 15px;*/
     /*align-self: end;*/
-     /*height: auto;*/
+     height: auto;
      transform: translateY(15px);
     /*padding-top: 15px;*/
 }
