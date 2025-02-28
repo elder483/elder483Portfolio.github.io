@@ -382,7 +382,7 @@ li a:hover, .dropdown:hover .dropbtn
 {display: block;
  }
 
-div.languageFont
+.language text
 {
       transform: translateY(-5px);
 }
