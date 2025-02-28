@@ -398,7 +398,8 @@ li a:hover, .dropdown:hover .dropbtn
      display: inline-block;
      width: 24px;
      height: auto;
-     transform: translateY(15px);
+     vertical-align: middle;
+     /*transform: translateY(15px);*/
     /*padding-top: 15px;*/
 }
 
