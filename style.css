@@ -381,7 +381,8 @@ li a:hover, .dropdown:hover .dropbtn
 .language img
 {
     /*margin-top: 15px;*/
-    align-self: end;
+    /*align-self: end;*/
+     height: auto;
     /*padding-top: 15px;*/
 }
 
