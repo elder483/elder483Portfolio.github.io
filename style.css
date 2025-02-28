@@ -197,6 +197,7 @@ ul.topnav li
 {
    margin-right: 10px;
     float: right;
+    transform: translateY(-15px);
 } 
 
 ul.topnav li.language a:hover
