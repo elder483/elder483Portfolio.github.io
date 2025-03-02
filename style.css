@@ -900,7 +900,7 @@ div.gif, div.video, div.gallery {
     display: inline-block;
     max-width: 100%;
     width:100%;
-   /* width: fit-content;*/ /*WAS ORIGINALLY ON*/
+    width: fit-content; /*WAS ORIGINALLY ON*/
     margin: auto;
     
     border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
