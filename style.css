@@ -382,6 +382,7 @@ li a:hover, .dropdown:hover .dropbtn
 {display: block;
  }
 
+/*
 .language 
 {
     display: inline-flex;
@@ -389,19 +390,19 @@ li a:hover, .dropdown:hover .dropbtn
     gap: 5px;
     margin-bottom: 15px; 
       /*transform: translateY(-15px);*/
-}
+/*}
 
 .language img
 {
     /*margin-top: 15px;*/
     /*align-self: end;*/
-     display: inline-block;
+    /* display: inline-block;
      width: 24px;
      height: auto;
      vertical-align: middle;
      transform: translateY(3px);
     /*padding-top: 15px;*/
-}
+/*}*/
 
 @media screen and (max-width: 768px)
 {
