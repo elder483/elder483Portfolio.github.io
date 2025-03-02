@@ -1201,16 +1201,17 @@ div.video iframe
     height: 315px;
     max-width: 100%;
     max-height: 100%;
+    object-fit: cover;
 }
 
 /*WAS ON COMPLETLEY*/
-/*WAS div.gif * div.video ONLY*/
-/*div.gallery img,div.gif video, div.video
+/*WAS div.gif * div.video ONLY,div.gif video, div.video*/
+div.gallery img
 {
  display:block;
  width: 100%; /*was width: 100% Then max-width: 100%*/
- /*height: auto;
-}*/
+ height: auto;
+}
 
 
 
