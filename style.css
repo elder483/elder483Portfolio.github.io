@@ -1146,7 +1146,7 @@ div.rd2.initialImage
 
 div.gif
 {
-   /* display: flex;*/
+    display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -1280,7 +1280,7 @@ div.desc
   padding: 15px;
 　font-size: calc(8px + 0.5vw);
   text-align: center;  
-  display:block;
+  display: block;
 }
 
 /*Padding for mobiles & Tablets below*/
