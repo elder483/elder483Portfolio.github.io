@@ -902,7 +902,7 @@ div.gif, div.video, div.gallery {
     max-width: 100%;
     width:100%;
     /*width: fit-content;*/ /*WAS ORIGINALLY ON*/
-    margin: auto;
+    margin: 0; /*Was AUTO*/
     
     border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
 
@@ -1147,12 +1147,12 @@ div.rd2.initialImage
 
 div.gif
 {
-    display: flex;
+    /*display: flex;*//*WAS ON*/
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin: 0 auto;
-    width: fit-content;
+    margin: 0;/*Was Auto*/
+    /*width: fit-content; WAS ON*/
     max-width: 100%;
     box-sizing: border-box;
 }
@@ -1187,7 +1187,7 @@ div.gif video
 
 div.video
 {
-    display: flex;
+    /*display: flex;*/ /*WAS ON*/
     justify-content: center;
     align-items: center;
     width: 100%; /*was width: 100% then max-width: 100%*/
@@ -1203,13 +1203,14 @@ div.video iframe
     max-height: 100%;
 }
 
+/*WAS ON COMPLETLEY*/
 /*WAS div.gif * div.video ONLY*/
-div.gallery img,div.gif video, div.video
+/*div.gallery img,div.gif video, div.video
 {
  display:block;
  width: 100%; /*was width: 100% Then max-width: 100%*/
- height: auto;
-}
+ /*height: auto;
+}*/
 
 
 
