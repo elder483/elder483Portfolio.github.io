@@ -902,7 +902,7 @@ div.gif, div.video, div.gallery {
     max-width: 100%;
     width:100%;
     /*width: fit-content;*/ /*WAS ORIGINALLY ON*/
-    margin: 0; /*Was AUTO*/
+    margin: auto; /*Was AUTO*/
     
     border-radius: 0px 15px 15px 15px;  border: 6px solid rgba(212,14,75, 0.5);}
 
