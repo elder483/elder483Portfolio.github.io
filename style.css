@@ -514,6 +514,22 @@ div.text
     width: 100%;
     margin: 0 auto;
 }
+
+@media only screen and (max-width: 768px)
+{div.text
+ {
+    max-width: 500px;
+    
+ }
+}
+
+@media only screen and (max-width: 500px)
+{div.text
+ {
+    max-width: 300px;
+      
+ }
+}
 /*main.rd2 
 {
     font-family: /*"Kosugi Maru", serif;"Dela Gothic One", sans-serif !important;
