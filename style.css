@@ -509,7 +509,7 @@ background-color: rgba(13,17,22,100);
 div.text
 {
     box-sizing: border-box;
-    max-width: 1200px;
+    max-width: 2000px; /*Was 1200px*/
     min-width: 200px;
     width: 100%;
     margin: 0 auto;
