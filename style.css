@@ -947,8 +947,8 @@ div.gif, div.video, div.gallery {
 
 @media screen and (max-width: 500px) {
     .initialImage img{
-        width: 400px; /*Was 200 x 150px*/
-        height: 300px;
+        width: 200px; /*Was 200 x 150px*/
+        height: 150px;
     }
 }
 
@@ -1250,7 +1250,7 @@ div.gallery img
  height: auto;
 }
 
-
+/*
 @media screen and (max-width: 768px){
 div.gallery img{
     width: 400px;
@@ -1262,7 +1262,7 @@ div.gallery img {
     width: 400px;
     height: 300px;
     }
-}
+}*/
 
 
 /*Orientations for videos for mobile/tablets.*/
@@ -1387,18 +1387,15 @@ div.desc {
     /*height: auto;*/
     margin:0 auto;
     }
-}
-
-@media screen and (max-width: 500px)
-{
-    /*Changed div.gif to div.gif video*/
-   div.gallery img,div.gif video, div.video iframe {
+     div.gallery img,div.gif video, div.video iframe {
     display: block !important;
     max-width: 100%; /*Was 100%*/
     height: auto;
     margin:0 auto;
     }
 }
+
+
 
 ul li
 {
