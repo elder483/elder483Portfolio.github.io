@@ -1251,6 +1251,19 @@ div.gallery img
 }
 
 
+@media screen and (max-width: 768px){
+div.gallery img{
+    width: 400px;
+    height: 300px;
+    }
+}
+@media screen and (max-width: 500px){
+div.gallery img {
+    width: 400px;
+    height: 300px;
+    }
+}
+
 
 /*Orientations for videos for mobile/tablets.*/
 
