@@ -627,32 +627,32 @@ h3
 
 .rd2 h3
 {
-    font-family: "Dela Gothic One", sans-serif !important;
+    font-family: "Dela Gothic One", sans-serif; /*HAD !important*/
 }
 
-.coinOp h3{font-family: "Rampart One", sans-serif !important;}
+.coinOp h3{font-family: "Rampart One", sans-serif;}/*HAD !important*/
 
-.hauntedHelper h3{font-family: "Potta One", sans-serif !important;}
+.hauntedHelper h3{font-family: "Potta One", sans-serif;} /*HAD !important*/
 
-.quantumAxle h3{font-family: "Mochiy Pop One", sans-serif !important;}
+.quantumAxle h3{font-family: "Mochiy Pop One", sans-serif;} /*HAD !important*/
 
-.doomedFlux h3 {font-family: "New Tegomin", sans-serif !important;}
+.doomedFlux h3 {font-family: "New Tegomin", sans-serif;} /*HAD !important*/
 
-.static h3 {font-family: "DotGothic16", sans-serif !important;}
+.static h3 {font-family: "DotGothic16", sans-serif;} /*HAD !important*/
 
-.aKOM h3 {font-family: "Yuji Mai", sans-serif !important;}
+.aKOM h3 {font-family: "Yuji Mai", sans-serif;} /*HAD !important*/
 
-.rem h3 {font-family: "Hachi Maru Pop", sans-serif !important;}
+.rem h3 {font-family: "Hachi Maru Pop", sans-serif;} /*HAD !important*/
 
-.fotp h3 {font-family: "Yuji Boku", sans-serif !important;}
+.fotp h3 {font-family: "Yuji Boku", sans-serif;} /*HAD !important*/
 
-.pDisorder h3{font-family: "Reggae One", sans-serif !important;}
+.pDisorder h3{font-family: "Reggae One", sans-serif;} /*HAD !important*/
 
-.suzaku h3{font-family: "Stick", sans-serif !important;}
+.suzaku h3{font-family: "Stick", sans-serif;} /*HAD !important*/
 
-.sakuraCell h3{font-family: "M PLUS 1 Code", sans-serif !important;}
+.sakuraCell h3{font-family: "M PLUS 1 Code", sans-serif;} /*HAD !important*/
 
-.robot h3{font-family: "RocknRoll One", sans-serif !important;}
+.robot h3{font-family: "RocknRoll One", sans-serif;} /*HAD !important*/
 
 
 
@@ -670,34 +670,34 @@ h4
 }
 .rd2 h4
 {
-    font-family: "Dela Gothic One", sans-serif !important;
+    font-family: "Dela Gothic One", sans-serif; /*HAD !important*/
 }
 
 
 
-.coinOp h4{font-family: "Rampart One", sans-serif !important;}
+.coinOp h4{font-family: "Rampart One", sans-serif;} /*HAD !important*/
 
-.hauntedHelper h4{font-family: "Potta One", sans-serif !important;}
+.hauntedHelper h4{font-family: "Potta One", sans-serif;} /*HAD !important*/
 
-.quantumAxle h4{font-family: "Mochiy Pop One", sans-serif !important;}
+.quantumAxle h4{font-family: "Mochiy Pop One", sans-serif;}
 
-.doomedFlux h4 {font-family: "New Tegomin", sans-serif !important;}
+.doomedFlux h4 {font-family: "New Tegomin", sans-serif;}
 
-.static h4 {font-family: "DotGothic16", sans-serif !important;}
+.static h4 {font-family: "DotGothic16", sans-serif;}
 
-.aKOM h4 {font-family: "Yuji Mai", sans-serif !important;}
+.aKOM h4 {font-family: "Yuji Mai", sans-serif;}
 
-.rem h4 {font-family: "Hachi Maru Pop", sans-serif !important;}
+.rem h4 {font-family: "Hachi Maru Pop", sans-serif;}
 
-.fotp h4 {font-family: "Yuji Boku", sans-serif !important;}
+.fotp h4 {font-family: "Yuji Boku", sans-serif;}
 
-.pDisorder h4{font-family: "Reggae One", sans-serif !important;}
+.pDisorder h4{font-family: "Reggae One", sans-serif;}
 
-.suzaku h4{font-family: "Stick", sans-serif !important;}
+.suzaku h4{font-family: "Stick", sans-serif;}
 
-.sakuraCell h4{font-family: "M PLUS 1 Code", sans-serif !important;}
+.sakuraCell h4{font-family: "M PLUS 1 Code", sans-serif;}
 
-.robot h4{font-family: "RocknRoll One", sans-serif !important;}
+.robot h4{font-family: "RocknRoll One", sans-serif;}
 
 
   #coinopcapitalTitle h4
@@ -823,34 +823,35 @@ h5
     color: white;
     
 }
+/*HAD !important*/
 .rd2 h5
 {
-    font-family: "Dela Gothic One", sans-serif !important;
+    font-family: "Dela Gothic One", sans-serif;
 }
 
-.coinOp h5{font-family: "Rampart One", sans-serif !important;}
+.coinOp h5{font-family: "Rampart One", sans-serif;}
 
-.hauntedHelper h5{font-family: "Potta One", sans-serif !important;}
+.hauntedHelper h5{font-family: "Potta One", sans-serif;}
 
-.quantumAxle h5{font-family: "Mochiy Pop One", sans-serif !important;}
+.quantumAxle h5{font-family: "Mochiy Pop One", sans-serif;}
 
-.doomedFlux h5 {font-family: "New Tegomin", sans-serif !important;}
+.doomedFlux h5 {font-family: "New Tegomin", sans-serif;}
 
-.static h5 {font-family: "DotGothic16", sans-serif !important;}
+.static h5 {font-family: "DotGothic16", sans-serif;}
 
-.aKOM h5 {font-family: "Yuji Mai", sans-serif !important;}
+.aKOM h5 {font-family: "Yuji Mai", sans-serif;}
 
-.rem h5 {font-family: "Hachi Maru Pop", sans-serif !important;}
+.rem h5 {font-family: "Hachi Maru Pop", sans-serif;}
 
-.fotp h5 {font-family: "Yuji Boku", sans-serif !important;}
+.fotp h5 {font-family: "Yuji Boku", sans-serif;}
 
-.pDisorder h5{font-family: "Reggae One", sans-serif !important;}
+.pDisorder h5{font-family: "Reggae One", sans-serif;}
 
-.suzaku h5{font-family: "Stick", sans-serif !important;}
+.suzaku h5{font-family: "Stick", sans-serif;}
 
-.sakuraCell h5{font-family: "M PLUS 1 Code", sans-serif !important;}
+.sakuraCell h5{font-family: "M PLUS 1 Code", sans-serif;}
 
-.robot h5{font-family: "RocknRoll One", sans-serif !important;}
+.robot h5{font-family: "RocknRoll One", sans-serif;}
 
 /*
 .galleryWrapper
