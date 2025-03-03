@@ -808,7 +808,7 @@ div.projectMargin
 @media only screen and (max-width: 500px)
 {div.projectMargin
  {
-   margin-bottom: 50px;
+   margin-bottom: 25px;
  }
 }
 
