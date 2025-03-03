@@ -506,6 +506,12 @@ background-color: rgba(13,17,22,100);
 
 }
 
+div.text
+{
+    box-sizing: border-box;
+    max-width: 350px;
+    min-width: 200px;
+}
 /*main.rd2 
 {
     font-family: /*"Kosugi Maru", serif;"Dela Gothic One", sans-serif !important;
