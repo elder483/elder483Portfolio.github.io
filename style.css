@@ -26,7 +26,7 @@
 h1
 {
     width: 100vw; /*Was 100vw*/
-    margin: 0 !important;
+    margin: 0;/*HAD !important*/
     padding: 50px;/*padding was 50px*/
     text-decoration: none;
     text-align: center;
@@ -85,91 +85,91 @@ h1
 {
      background-color: rgba(255,0,221,0.5);
      border: 3px solid rgb(57,21,93);
-     font-family: "Dela Gothic One", sans-serif !important;
+     font-family: "Dela Gothic One", sans-serif; /*HAD !important*/
 }
 
 .coinOp h1
 {
     background-color: rgba(173,173,173,0.5);
      border: 3px solid rgb(255,25,175);
-     font-family: "Rampart One", sans-serif !important;
+     font-family: "Rampart One", sans-serif; /*HAD !important*/
 }
 
 .hauntedHelper h1
 {
     background-color: rgba(17,93,80,0.5);
      border: 3px solid rgb(56,234,230);
-    font-family: "Potta One", sans-serif !important;
+    font-family: "Potta One", sans-serif; /*HAD !important*/
 }
 
 .quantumAxle h1
 {
     background-color: rgba(70,0,111,0.5);
      border: 3px solid rgb(134,164,255);
-    font-family: "Mochiy Pop One", sans-serif !important;
+    font-family: "Mochiy Pop One", sans-serif; /*HAD !important*/
 }
 
 .doomedFlux h1
 {
     background-color: rgba(173,9,57,0.5);
      border: 3px solid rgb(68,0,2);
-    font-family: "New Tegomin", sans-serif !important;
+    font-family: "New Tegomin", sans-serif; /*HAD !important*/
 }
 
 .static h1
 {
     background-color: rgba(31,88,75,0.5);
      border: 3px solid rgb(0,239,255);
-    font-family: "DotGothic16", sans-serif !important;
+    font-family: "DotGothic16", sans-serif; /*HAD !important*/
 }
 
 .aKOM h1
 {
      background-color: rgba(212,14,75, 0.5);
      border: 3px solid rgb(23,211,247);
-    font-family: "Yuji Mai", sans-serif !important;
+    font-family: "Yuji Mai", sans-serif; /*HAD !important*/
 }
 
 .rem h1
 {
      background-color: rgba(255,157,2, 0.5);
      border: 3px solid rgb(241,22,72);
-    font-family: "Hachi Maru Pop", sans-serif !important;
+    font-family: "Hachi Maru Pop", sans-serif; /*HAD !important*/
 }
 
 .fotp h1
 {
      background-color: rgba(6,0,0, 0.5);
      border: 3px solid rgb(223,122,0);
-    font-family: "Yuji Boku", sans-serif !important;
+    font-family: "Yuji Boku", sans-serif; /*HAD !important*/
 }
 
 .robot h1
 {
      background-color: rgba(237,28,36, 0.5);
      border: 3px solid rgb(64,221,217);
-    font-family: "RocknRoll One", sans-serif !important;
+    font-family: "RocknRoll One", sans-serif; /*HAD !important*/
 }
 
 .sakuraCell h1
 {
      background-color: rgba(255,170,184, 0.5);
      border: 3px solid rgb(114,46,56);
-    font-family: "M PLUS 1 Code", sans-serif !important;
+    font-family: "M PLUS 1 Code", sans-serif; /*HAD !important*/
 }
 
 .suzaku h1
 {
      background-color: rgba(37,234,250, 0.5);
      border: 3px solid rgb(255,158,46);
-    font-family: "Stick", sans-serif !important;
+    font-family: "Stick", sans-serif; /*HAD !important*/
 }
 
 .pdisorder h1
 {
      background-color: rgba(245,20,20, 0.5);
      border: 3px solid rgb(237,233,69);
-    font-family: "Reggae One", sans-serif !important;
+    font-family: "Reggae One", sans-serif; /*HAD !important*/
 }
 
 
