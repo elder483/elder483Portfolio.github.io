@@ -445,7 +445,7 @@ background-color: rgba(13,17,22,100);
     overflow-x: hidden;
     width: 100%;
 }
-
+/*
 @media only screen and (max-width: 500px)
 { body
  {
@@ -453,7 +453,7 @@ background-color: rgba(13,17,22,100);
  }
     
 }
-
+*/
 div.text
 {
     box-sizing: border-box;
@@ -1130,6 +1130,8 @@ div.desc {
     width: 100%; /*Was 100%*/
     /*height: auto;*/
     margin:0 auto;
+    justify-content: unset;
+    align-items: unset;
     }
      div.gallery img,div.gif video, div.video iframe {
     display: block !important;
