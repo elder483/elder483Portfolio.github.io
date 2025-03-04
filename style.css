@@ -1059,6 +1059,7 @@ div.video iframe
     height: 315px;*/
     width: 100%; /*Was MAx width, Max Height 100%*/
     max-height: 100%;
+    aspect-ratio: 16 / 9;
     /*object-fit: cover;*/
 }
 
@@ -1128,6 +1129,8 @@ div.desc {
     }
 }
 
+
+/*
 @media screen and (max-width: 500px) and (orientation: portrait)
 {
     div.video iframe
@@ -1147,7 +1150,7 @@ div.desc {
     }
 }
 
-
+*/
 
 @media only screen and (max-width: 768px)
 {.responsive
