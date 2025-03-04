@@ -1129,7 +1129,7 @@ div.desc {
     display: block !important;
     max-width: 100%; /*Was 100%*/
     width: 100%; /*Was 100%*/
-    /*height: auto;*/
+    height: auto;
     margin:0 auto;
     justify-content: unset;
     align-items: unset;
