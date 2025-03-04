@@ -1159,7 +1159,7 @@ div.desc {
 {.responsive
  {
     max-width: 100%;/*was 49.99999%*/
-    width: 75%;
+    width: 100%; /*was 75%*/
     margin: 0 auto;
  }
 }
