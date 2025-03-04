@@ -417,70 +417,11 @@ li a:hover, .dropdown:hover .dropbtn
     ul.topnav li.language{float: none;} 
 }
 
-/*Aside section used for quick navigation in a web page.
-.aside
-{
-  position: sticky;
-  flex: 1;
-  top: 10px;
-  right: 10px;
-  float: right;
-  display: grid; /*was grid
-  gap: 10px;
-  background-color: #33b5e5;
-  padding: 15px;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  margin-left: auto;
-  box-sizing: border-box;
-}
-
-/*Attempting some class interaction with AKOM*/
-
-/*Removed New skills and mechanics lists.*/
-/*
-.mechanics ol li
-{
-    display: list-item;
-    list-style: none;
-    list-style-position: outside;
-    text-align: center; 
-    margin: 0;
-    padding: 5px;
-    justify-content: center;
-}
-*/
-
-/*#newSkills ul li
-{
-
-    display: list-item;
-    list-style: none;
-    list-style-position: outside;
-    text-align: center; 
-    margin: 0;
-    padding: 5px;
-    justify-content: center;
-}*/
-
-/*
-.container
-{
-    /*This value can change.
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 5%;
-    
-}
-*/
-
 body
 {
 min-height: 100vh;
 display: flex;
-flex: 3;
+/*flex: 3;*/
 flex-direction: column;
     /*Justify content was felx-start*/
 justify-content: center;
@@ -503,7 +444,14 @@ background-color: rgba(13,17,22,100);
     /*Seeing if this fixes Horizontal scrolling.*/
     overflow-x: hidden;
     width: 100%;
+}
 
+@media only screen and (max-width: 500px)
+{ body
+ {
+     display: block;
+ }
+    
 }
 
 div.text
@@ -530,39 +478,7 @@ div.text
       
  }
 }
-/*main.rd2 
-{
-    font-family: /*"Kosugi Maru", serif;"Dela Gothic One", sans-serif !important;
-}*/
 
-/*Adds padding to the left and right of the screen to stop the words hitting the edge of the screen mobile and Tablet. WORKS FINE*/
-/*
- @media screen and (max-width: 768px)
-     {
-         body{
-        padding: 0 14%; 
-        /*font-size: 15px;*/
-         /*}
-    }
-
- @media screen and (max-width: 500px)
-    {
-        body{
-         padding: 0 16%; 
-         
-           
-        /*font-size: 12px;*/
-       /* }
-    }
-
-/*Home Page*/
-/*
-.index
-{display: flex;
-  flex-direction: column;
-min-height: 100vh;
-}
-*/
 main
 {
     flex-grow: 1;
@@ -853,73 +769,7 @@ h5
 
 .robot h5{font-family: "RocknRoll One", sans-serif;}
 
-/*
-.galleryWrapper
-{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-    margin: 20px 0;
-}
 
-.galleryWrapper .gallery 
-{
-    flex: 1 1 calc(33.33% - 15px);
-    box-sizing: border-box;
-    max-width: 300px;
-    min-width: 200px;
-    overflow: hidden;
-}
-
-.galleryWrapper .gallery img
-{
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-.galleryWrapper .gallery gif
-{
-    display: block;
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
-@media screen and (max-width: 768px) {
-    .galleryWrapper .gallery {
-        flex: 1 1 calc(50% - 15px);
-    }
-}
-
-/* Mobile: one per row 
-@media screen and (max-width: 500px) {
-    .galleryWrapper .gallery {
-        flex: 1 1 100%;
-    }
-}
-
-.videoWrapper
-{
-    position: relative;
-    width: 100%;
-    padding-bottom: 56.25%; /*16:9 ratio
-    overflow: hidden;
-    margin: 20px auto;
-}
-
-.videoWrapper iframe
-{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0;
-}
-*/
 /*Initial Images*/
 /*THIS IS COMMENTED OUT FOR THE TEST*/
 
@@ -1168,18 +1018,7 @@ div.pdisorder.initialImage
 }
 
 div.pdisorder.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(237,233,69); box-shadow: 2px 2px 2px 2px  rgba(237,233,69,0.5);}
-/*
-div.rd2.initialImage
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    margin: 0 auto;
-    width: fit-content;
-    max-width: 100%;
-    box-sizing: border-box;
-}*/
+
 
 div.gif
 {
@@ -1193,23 +1032,6 @@ div.gif
     box-sizing: border-box;
 }
 
-/*Margins for gallery sections on mobile/tablet.
-
-@media screen and (max-width: 768px){
-div.gif, div.gallery
-{
-    margin: 0 15px auto;
-    
-}
-
-@media screen and (max-width: 500px) and (orientation: landscape){
-div.gif, div.gallery
-{
-   margin: 0 15px auto;
-}
-}
-
- */
 
 
 div.gif video
@@ -1249,83 +1071,6 @@ div.gallery img
  height: auto;
 }
 
-/*
-@media screen and (max-width: 768px){
-div.gallery img{
-    width: 400px;
-    height: 300px;
-    }
-}
-@media screen and (max-width: 500px){
-div.gallery img {
-    width: 400px;
-    height: 300px;
-    }
-}*/
-
-
-/*Orientations for videos for mobile/tablets.*/
-
-/*@media screen and (max-width: 768px) and (orientation: portrait){
-div.video iframe{
-
-    width: 480px;
-    height: 270px;
- }
-}
-
-
-    @media screen and (max-width: 768px) and (orientation: landscape){
-div.video iframe{
-
-    width: 640px;
-    height: 360px;
-    
-    }   
-}
-
-@media screen and (max-width: 500px) and (orientation: portrait){
-div.video iframe{
-
-    width: 320px;
-    height: 180px;
-    }
-}
-
-@media screen and (max-width: 500px) and (orientation: landscape){
-div.video iframe{ 
-       
-    width: 480px;
-    height: 270px;
-    }
-}*/
-
-
-
-/*made some thing for tablets and mobile may need to be adjusted.*/
-/*
-@media screen and (max-width: 768px)
-{ 
-    div.gallery img,div.gif, div.video{
-    display: block;
-    max-width: 100%;
-    width:100%;
-    height:auto;
-    margin:0;
-     }
-}
-*/
-
-
-/*Originally just width and height*/
-
-/*{
-    display: block;
-    max-width: 100%;
-    width:100%;
-    height:auto;
-    margin:0;
-}*/
 
 div.desc
 {
