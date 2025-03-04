@@ -1058,6 +1058,7 @@ div.video iframe
     /*width: 560px;
     height: 315px;*/
     width: 100%; /*Was MAx width, Max Height 100%*/
+    height: 100%;
     max-width: 100%; /*Max width wasn't here before.*/
     max-height: 100%;
     aspect-ratio: 16 / 9;
