@@ -1137,6 +1137,7 @@ div.desc {
      div.gallery img,div.gif video, div.video iframe {
     display: block !important;
     max-width: 100%; /*Was 100%*/
+    width: 100%;
     height: auto;
     margin:0 auto;
     }
