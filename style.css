@@ -466,7 +466,7 @@ div.text
 @media only screen and (max-width: 768px)
 {div.text
  {
-    max-width: 500px;
+    max-width: 400px;
     
  }
 }
@@ -1158,8 +1158,9 @@ div.desc {
 @media only screen and (max-width: 768px)
 {.responsive
  {
-    max-width: 49.99999%;
-    margin: 0px 6px;
+    max-width: 100%;/*was 49.99999%*/
+    width: 75%;
+    margin: 0 auto;
  }
 }
 @media only screen and (max-width: 500px)
