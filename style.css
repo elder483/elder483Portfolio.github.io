@@ -1141,7 +1141,7 @@ div.desc {
  {
     display: block;
     max-width: 100%;
-    width:100%;
+    width: 75%; /*Was 100%*/
     margin: 0 auto; /*Was 0px 6px*/
  }
 }
