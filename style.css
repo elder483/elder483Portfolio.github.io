@@ -471,6 +471,14 @@ div.text
  }
 }
 
+@media only screen and (max-width: 1024px) and (orientation: landscape) /*768*/
+{div.text
+ {
+    max-width: 400px;
+    
+ }
+}
+
 @media only screen and (max-width: 500px)
 {div.text
  {
@@ -1159,7 +1167,7 @@ div.desc {
 {.responsive
  {
     max-width: 100%;/*was 49.99999%*/
-    width: 100%; /*was 75%*/
+    width: 75%; /*was 75%*/
     margin: 0 auto;
  }
 }
