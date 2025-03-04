@@ -1128,12 +1128,22 @@ div.desc {
     }
 }
 
-@media screen and (max-width: 500px) and (Orientation:landscape)
+@media screen and (max-width: 500px) and (orientation: portrait)
 {
     div.video iframe
     {
-        width: 315px;
-        height: 560px;
+        width: 100vw;
+        height: calc(100vw * 9 / 16);
+    }
+}
+
+
+@media screen and (max-width: 500px) and (orientation: landscape)
+{
+    div.video iframe
+    {
+        width: 90vw;
+        height: calc(90vw * 9 / 16);
     }
 }
 
