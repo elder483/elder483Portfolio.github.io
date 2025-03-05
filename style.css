@@ -480,6 +480,15 @@ div.text
  }
 }
 
+@media only screen and (max-width: 1366px) and (orientation: portrait) /*768*/
+{div.text
+ {
+    max-width: 600px;
+     color: red;
+    
+ }
+}
+
 /*Mobile*/
 
 @media only screen and (max-width: 799px) /*was 500*/
