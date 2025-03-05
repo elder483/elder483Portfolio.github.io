@@ -463,7 +463,7 @@ div.text
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 1024px) /*768*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) /*768*/
 {div.text
  {
     max-width: 400px;
@@ -471,7 +471,7 @@ div.text
  }
 }
 
-@media only screen and (max-width: 1024px) and (orientation: landscape) /*768*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) /*768*/
 {div.text
  {
     max-width: 400px;
