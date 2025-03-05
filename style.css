@@ -457,10 +457,16 @@ background-color: rgba(13,17,22,100);
 div.text
 {
     box-sizing: border-box;
-    max-width: 1600px; /*Was 1200px*/
+    /*max-width: 1600px;*/ /*Was 1200px*/
     min-width: 200px;
     width: 100%;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 1201px) {
+    div.text {
+        max-width: 1600px;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1200px) /*768*/
