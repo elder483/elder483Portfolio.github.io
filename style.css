@@ -491,7 +491,18 @@ div.text
 
 /*Mobile*/
 
+
 @media only screen and (max-width: 799px) /*was 500*/
+{div.text
+ {
+    max-width: 600px;
+      /*color: pink;*/
+      
+ }
+}
+
+
+@media only screen and (max-width: 799px) and (orientation: portrait) /*was 500*/
 {div.text
  {
     max-width: 300px;
