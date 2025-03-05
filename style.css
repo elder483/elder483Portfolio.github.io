@@ -495,7 +495,7 @@ div.text
 @media only screen and (max-width: 799px) /*was 500*/
 {div.text
  {
-    max-width: 600px;
+    max-width: 500px;
       /*color: pink;*/
       
  }
