@@ -466,6 +466,7 @@ div.text
 @media only screen and (min-width: 1201px) {
     div.text {
         max-width: 1600px;
+        color: green;
     }
 }
 
@@ -473,6 +474,7 @@ div.text
 {div.text
  {
     max-width: 400px;
+     color: red;
     
  }
 }
