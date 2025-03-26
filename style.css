@@ -532,7 +532,8 @@ h2
 }
 
 .rd2 h2
-{font-family: "Dela Gothic One", sans-serif;}/*HAD !important*/
+{font-family: "Dela Gothic One", sans-serif;
+font-weight: 400;}/*HAD !important*/
 
 .coinOp h2{font-family: "Rampart One", sans-serif;} /*HAD !important*/
 
@@ -576,7 +577,8 @@ h3
 
 .rd2 h3
 {
-    font-family: "Dela Gothic One", sans-serif; /*HAD !important*/
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;/*HAD !important*/
 }
 
 .coinOp h3{font-family: "Rampart One", sans-serif;}/*HAD !important*/
@@ -620,6 +622,7 @@ h4
 .rd2 h4
 {
     font-family: "Dela Gothic One", sans-serif; /*HAD !important*/
+    font-weight: 400;
 }
 
 
@@ -776,6 +779,7 @@ h5
 .rd2 h5
 {
     font-family: "Dela Gothic One", sans-serif;
+    font-weight: 400;
 }
 
 .coinOp h5{font-family: "Rampart One", sans-serif;}
