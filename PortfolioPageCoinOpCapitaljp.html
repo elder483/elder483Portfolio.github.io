@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Kosugi+Maru&display=swap" rel="stylesheet">
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry-James Linford コイン・オープ・キャピタル</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class = "coinOp">
+      <h1>コイン・オープ・キャピタル</h1>
+      </div>
+<nav>
+  <ul class = "topnav">
+    <li>
+   <a href="indexjp.html">ホーム/自己紹介</a>
+    </li>
+
+    <li>
+      <a href="Skillsjp.html">能力と学歴</a>
+    </li>
+   <li>
+      
+    <li class="dropdown">
+    <a class="dropbtn" href="ProfessionalWorksjp.html">実務のプロジェクト</a>
+      <div class="dropdown-content">
+      <a href="PortfolioPageRD2jp.html">Retro Drive 2</a>
+      </div>
+   </li>
+   <li class="dropdown">
+            <a class="dropbtn coinOp active" href="GamesJamsjp.html">ゲームジャム</a>
+          
+                 <div class="dropdown-content">
+                  <a href="PortfolioPageCoinOpCapitaljp.html">コイン・オープ・キャピタル</a>
+                  <a href="PortfolioPageHauntedHelper.html">Haunted Helper</a>
+                  <a href="PortfolioPageQuantumAxle.html">Quantum Axle</a>
+                  <a href="PortfolioPageDoomedFlux.html">Doomed Flux</a>
+                  <a href="PortfolioPageStatic.html">Static</a>
+                  <a href="PortfolioPageArthurKingOfMars.html">Arthur King Of Mars</a>
+                  <a href="PortfolioPageREM.html">REM</a>
+                  <a href="PortfolioPageFlightOfThePhoenix.html">Flight Of The Phoenix</a>
+                 </div>
+                </li>
+  <li class="dropdown">
+            <a class="dropbtn" href="Solo_Universityjp.html">大学と個人のプロジェクト</a>
+           
+              
+                   <div class="dropdown-content">
+                  <a href="PortfolioPagePDisorder.html">P_Disorder</a>
+                  <a href="PortfolioPageSuzaku.html">Suzaku</a>
+                  <a href="PortfolioPageSakuraCell.html">Sakura Cell</a>
+                  <a href="PortfolioPageRobot.html">Robot</a>
+                   </div>
+                 </li>
+    <li>
+   <a href="#contact">お問い合わせ</a>
+    </li>
+     <li class ="language">
+                  <a href="PortfolioPageCoinOpCapital.html"><span>英語: English Language</span> <img src="Images/uk_flag.svg" width="24px"></a><!--height ="32px"-->
+                        </li>
+    </ul>
+</nav>
+</header>
+    <div class= "coinOp">
+<!--Overview section-->
+    <section>
+<h2>オーバービュー</h2>
+
+      <div class = "initialImage coinOp">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Title.png" width="400px" height= "300px" alt="Coin-Op Capital Title Screen.">
+      </div>
+<div class = "text">
+
+  <p>このプロジェクトは二人で一週間のゲームジャムでした。私の主な役割はプロジェクトリードとデザイナーと開発者でした。<br>
+     さらに、いくつかのピクセルアートとストーリーと両方の言語を実装すると音楽を作成しました。<br>
+     このゲームのテーマはレトロゲームを作成し、追加挑戦はカラーパレットの限界があり、最大の色を使って八色だけです。<br>
+     私はスーパーヒーローにようなゲームを作りたいんでした。この触発は'Prototype'と'Infamous'と'Spider-man'などです。<br>
+     他の触発は私の最近の日本の旅行と節分の祭り、前兆を消するの為に鬼と豆を投げります。</p>
+</div>
+    </section>
+
+      <section>
+      <h2>問題と解決</h2>
+        <h5>プレイヤーのキャラクター</h5>
+        <div class = "text">
+        <p>移動するとトラバース</p>
+
+        <p>初めるの問題はキャラクターがスーパーヒーローの感じが欲しいんでした。<br>
+           私もキャラクターが良い移動とトラバースの機能が欲しいんでした。<br>
+           この解決にとって五つのメカニックスを作った、スプリント、ジャンプ、Wジャンプ、エアーダッシュ、ウォールラン。<br>
+           このメカニックスは連続してを使用することが出来、これは私の予定でした。<br>
+           例えばスプリントするながらウォールランすることが出来ます。他の例はもし、プレイヤーがジャンプしたらもう一度ボタンを押してエアーダッシュすることが出来ます。<br>
+           スプリントもジャンプの高さとますぐの移動の速度を効果しので使用を励みになる。<br>
+           エネルギーメーターを実装したので両方コンバット中と探検するとプレイヤーの移動とトラバースをバランスします。</p>
+        </div>
+        
+          <p>コンバット</p>
+        <div class = "text">
+
+          <p>次の問題はコンバットの内容は何ですか<br>
+             この解決はオブジェクトを投げるすべき、豆などです。「節分の祭りの触発です。」<br>
+             全てのプロジェクタイルは弾薬が必要し、もしプレイヤーは全ての弾薬を使用されたら、弾薬の回復が必要です。そして、世界中で自動販売機を置きました。<br>
+             プレイヤーは弾薬不足の時にキャラクターが言って自動販売機を訪れるすべきです。これは'Spider-man'の独り言にようなです。<br>
+             二つの弾薬があり、ガチャと豆です。豆を投げて鬼達は大きなダメージを受けるけれども豆の弾薬はもっと珍しいです。<br>
+             弾薬の回復似て体力も回復することが出来けれども8Twelveの店に訪れます。もう一度プレイヤーは独り言です。<br>
+             この独り言は一つの時に起きるだけのでプレイヤーの為に面倒くさいになることが必要ではありません。<br>
+        </div>
+        
+         <h5>鬼</h5>
+        <p>コンバット</p>
+        <div class = "text">
+
+          <p>最初の問題はどうしてプレイヤーはコンバットに入って知りますか<br>
+             二つの方法を使いました。まずは敵の色を変えて普段はグレースケールそれから音楽も変えています。<br>
+             次の問題は敵の攻撃のパータンを決めますがどうしてプレイヤーの移動とトラバースの能力を使って回避することが出来ますか<br>
+             二つの攻撃を作成した、鬼火「ホーミングプロジェクタイル」と鬼のオーブ「シングルショットプロジェクタイル」です。<br>
+             この二つの攻撃はよくプレイヤーが移動するすべきと回避するすべきつもりです。<br>
+             三つのボスはピンク色と青色と黄色の鬼は特別なモードがあり、狂乱状態を呼びます。<br>
+             狂乱状態のモードは先のモードは似ているけれども今度は複数のカラムの形のプロジェクタイルを発射し、もっとの鬼火を発射して難しく増加します。<br>
+             最後の問題はどうしてプレイヤーが鬼と戦いますか。何を得ますか。<br>
+             鬼を倒することがコインを落として集めるの後でストーリーを続けることが出来ます。</p>
+        </div>
+
+        <h5>物語とレベルの構造</h5>
+        <div class = "text">
+
+          　<p>PS1のスーパーヒーローのビジュアルが欲しいし、さらに、時々ピクセルアートのアーケードにようなプラットフォームゲームです。<br>
+               達成して主人公は鬼からコインを集めてアーケードに行ってアーケード機械の中の友達を救います。<br>
+               Unreal Engine 5'sポーンの
+          
+        <p>I wanted to have a PS1 aesthetic superhero game transition to a pixel art arcade side scroller.<br>
+          To achieve this I decided the protagonist needed to collect coins from the Oni to power up the arcade and save their friend from within.<br>
+          Using Unreal Engine 5's pawn possession it made switching between the two characters seamless.<br>
+          I wanted the story to be given in snippets, but also show clear progression, each time the player went to the arcade the art style would increase in clarity.<br>
+          This allowed for good pacing between the 3D segments and 2D story sections.</p>
+        </div>
+      </section>
+<!--<p>The games theme was to create something in the style of a retro game and an additional bonus for using a limited colour palette of 8.</p> 
+   <p>We opted for making something low resolution via a shader in the style of classic PS1 era titles, with an additional 2D segment using varying eras of pixel art. </p>
+  <p>I used Unreal Engine 5 in Japanese.</p>
+<p>We also wanted to try and make a monochrome game as this would also allow us to aim for the challenge, but additionally we wanted the important elements to be in colour.
+   We also have a way to transition certain elements to be in colour or not in colour during runtime, primarily the oni's during combat.</p>
+
+      <ul>
+      <li>Black/黒</li>
+      <li>White/白</li> 
+      <li>Grey/グレイ</li> 
+      <li>Yellow/黄色</li> 
+      <li>Blue/青い</li> 
+      <li>Red/赤い</li>
+      <li>Pink/ピンク色</li> 
+      <li>Green/緑/青い</li> 
+      </ul>-->
+        
+   
+    <!--Responsibilities section-
+    <section>
+      <h2>Responsibilities</h2>
+      
+          <p>Creating the game design (Game rules, mechanics, players, enemies, level progression, story, all created via blueprints). </p>
+          <p>Managing the team.</p>
+          <p>Asset placement.</p>
+          <p>Pixel Art for Atari & NES era phase, All dialogue.</p>
+          <p>Cutscene for phase 3 Pixel art.</p>
+          <p>Audio.</p>
+          <p>VFX & Shaders.</p>
+          <p>UI/UX.</p>
+        
+    
+    </section>->
+<!--Story section-->
+  
+
+    <!--Gallery section-->
+    <section> 
+     <h2>Gallery</h2>
+      <h3>Images</h3>
+
+       <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Title.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Title.png" width="400px" height= "300px" alt="Coin-Op Capital Title Screen.">
+             </a>
+          <div class="desc">This is the game's title page</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Controls.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Controls.png" width="400px" height= "300px" alt="Coin-Op Capital Controls.">
+                </a>
+          <div class="desc">This is the control's page.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_VsRed.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_VsRed.png" width="400px" height= "550px" alt="Coin-Op Capital Vs Red.">
+               </a>
+          <div class="desc">The player vs the Red Oni.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+           <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Soaring.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Soaring.png" width="400px" height= "300px" alt="Coin-Op Capital Soaring.">
+                  </a>
+          <div class="desc">The player using their air dash ability.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_DefeatedVsBlue.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_DefeatedVsBlue.png" width="400px" height= "600px" alt="Coin-Op Capital Vs Blue.">
+                      </a>
+          <div class="desc">The player vs the Blue Oni.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_BeanADay.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_BeanADay.png" width="400px" height= "300px" alt="Coin-Op Capital Bean a Day.">
+                         </a>
+          <div class="desc">Restoring bean ammo at the vending machine.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+           <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_VsYellow.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_VsYellow.png" width="400px" height= "300px" alt="Coin-Op Capital Vs Yellow.">
+           </a>
+               <div class="desc">The player vs the Yellow Oni.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+              <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_8_Twelve.JPG">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_8_Twelve.JPG" width="400px" height= "350px" alt="Coin-Op Capital 8 Twelve.">
+              </a>
+                  <div class="desc">Restoring health at the 8Twelve.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+              <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Onimeansbusiness.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Onimeansbusiness.png" width="400px" height= "150px" alt="Coin-Op Capital Oni">
+              </a>
+                <div class="desc">An Oni outside of combat.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_WallRune.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_WallRune.png" width="400px" height= "550px" alt="Coin-Op Capital wall run 1.">
+          </a>
+             <div class="desc">The player performing a wall run.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+            <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_WallRun2.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_WallRun2.png" width="400px" height= "300px" alt="Coin-Op Capital wall run 2.">
+            </a>
+              <div class="desc">The player performing a wall run.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+             <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_VsCEO.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_VsCEO.png" width="400px" height= "550px" alt="Coin-Op Capital vs CEO.">
+               </a>
+              <div class="desc">The player vs the CEO the Pink Oni.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Arcade.JPG">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_Arcade.JPG" width="400px" height= "150px" alt="Coin-Op Capital Arcade">
+              </a>
+              <div class="desc">Visiting the arcade.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_AtariPixlr.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_AtariPixlr.png" width="400px" height= "300px" alt="Coin-Op Capital Atari style art.">
+              </a>
+              <div class="desc">Atari Pixel art segment.</div>
+        </div>
+      </div>
+
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+            <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_8Bit.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_8Bit.png" width="400px" height= "350px" alt="Coin-Op Capital 8 Bit.">
+               </a>
+              <div class="desc">8bit Pixel art segment.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_16Bit.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_16Bit.png" width="400px" height= "350px" alt="Coin-Op Capital 16 Bit.">
+               </a>
+              <div class="desc">16bit Pixel art segment.</div>
+        </div>
+      </div>
+
+           <div class = "responsive">
+        <div class = "gallery coinOp">
+          <a target="_blank" href= "Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_saved.png">
+      <img loading= "lazy" src="Images/Coin-Op_Capital_Content/Images/Coin-Op_Capital_saved.png" width="400px" height= "300px" alt="Coin-Op Capital Saved friend.">
+              </a>
+              <div class="desc">Reunited with a friend.</div>
+        </div>
+      </div>
+        
+      
+      <h3>Gifs</h3>
+         <div class = "responsive">
+        <div class = "gif coinOp">
+        <!--<img loading= "lazy" src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_Player.gif" alt="Coin-op capital Player">-->
+               <video autoplay loop muted playsinline> 
+      <source src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_Player.mp4" type="video/mp4">
+    </video>
+        </div>
+         </div>
+
+           <div class = "responsive">
+          <div class = "gif coinOp">
+        <!--<img loading= "lazy" src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_StartingaFight.gif" alt="Coin-op capital Starting a fight">-->
+                 <video autoplay loop muted playsinline> 
+      <source src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_StartingaFight.mp4" type="video/mp4">
+    </video>
+          </div>
+           </div>
+
+           <div class = "responsive">
+            <div class = "gif coinOp">
+        <!--<img loading= "lazy" src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_AllThatRage.gif" alt="Coin-op capital All that rage">-->
+                    <video autoplay loop muted playsinline> 
+      <source src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_AllThatRage.mp4" type="video/mp4">
+    </video>
+            </div>
+           </div>
+
+           <div class = "responsive">
+         <div class = "gif coinOp">
+        <!--<img loading= "lazy" src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_He'llHaveMoney.gif" alt="Coin-op capital CEO">-->
+                 <video autoplay loop muted playsinline> 
+      <source src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_HellHaveMoney.mp4" type="video/mp4">
+    </video>
+         </div>
+           </div>
+
+           <div class = "responsive">
+            <div class = "gif coinOp">
+        <!--<img loading= "lazy" src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_ABeanADay.gif" alt="Coin-op capital A bean a day">-->
+                    <video autoplay loop muted playsinline> 
+      <source src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_ABeanADay.mp4" type="video/mp4">
+    </video>
+            </div>
+           </div>
+
+           <div class = "responsive">
+            <div class = "gif coinOp">
+        <!--<img loading= "lazy" src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_InitialArcade.gif" alt="Coin-op Initial Arcade">-->
+                    <video autoplay loop muted playsinline> 
+      <source src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_InitialArcade.mp4" type="video/mp4">
+    </video>
+            </div>
+           </div>
+
+           <div class = "responsive">
+            <div class = "gif coinOp">
+        <!--<img loading= "lazy" src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_SecondArcade.gif" alt="Coin-op Second Arcade">-->
+                    <video autoplay loop muted playsinline> 
+      <source src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_SecondArcade.mp4" type="video/mp4">
+    </video>
+            </div>
+           </div>
+
+           <div class = "responsive">
+            <div class = "gif coinOp">
+        <!--<img loading= "lazy" src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_Showdown.gif" alt="Coin-op Showdown">-->
+
+                     <video autoplay loop muted playsinline> 
+      <source src="Images/Coin-Op_Capital_Content/Gifs/Coin-Op_Capital_Showdown.mp4" type="video/mp4">
+    </video>
+            </div>
+           </div>
+
+     
+      
+      <h3>Videos</h3>
+        <h4>Mechanics Overview Trailer</h4>
+       <div class = "responsive">
+       <div class ="video coinOp">
+        <iframe loading= "lazy" width="560" height="315" 
+        src="https://www.youtube.com/embed/h7ntehKaqGQ?si=Rf1KpXa39fVSAUBE" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+       </div>
+       </div>
+    
+       
+        <h4>Full Playthrough</h4>
+   <div class = "responsive">
+<div class ="video coinOp">
+          <iframe loading= "lazy" width="560" height="315" 
+          src="https://www.youtube.com/embed/zkEyUfoymZk?si=NXMLHYT6DWoGB_4d" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+</div>
+   </div>
+
+        <section>
+      <h2>Synopsis/Demo</h2>
+<div class = "text">
+      <p>In this game the player has to use their supernatural powers to navigate the level, find and defeat the Oni, collect their coins and save their friend who resides in an arcade machine.<br>
+         The project the enemies and some mechanics are based on the festival Setsubun, and the world is set in Japan.</p>
+</div>
+     <!--     
+    <p>The story and games overall theme was based on my love for Japan and recent holiday, we also decided to reference a certain shop in Japan.</p>  
+    <p>I also based it on the festival Setsubun, which in tradition people would throw soybeans to scare away Oni.</p> 
+     <p> That's why the character can also throw cans of beans, but their main ammo is gatcha.</p> 
+      <p>I also wanted to make the Oni inspired by Japanese businessmen, so they wear suits and carry briefcases.</p>
+      <p>As well as arcades and various Japanese retro games both Ps1 era and prior were a big inspiration.</p>-->
+      
+    </section>
+<!--
+ <section>
+      <h2>Character Mechanics</h2>
+
+      <p>Throw: The player can throw gatcha or a can of soybeans at the oni's to deal damage.</p>
+      <p>Sprint/Wall-Run: Player has stamina bar to govern moment actions such as sprinting or wallrunning. (Player can chain movement actions together for smooth traversal.)</p>
+      <p>AirDash: A small boost in the air which allows the player to reach areas with more ease or use it to reach another wall to wallrun.</p>
+      
+    </section>
+
+    <section>
+      <h2>Enemy Mechanics</h2>
+      <h4>Red Oni</h4>
+    
+      <p>Default enemy, has less health.</p>
+      <p>Oni Orb: fires a single projectile towards the player.</p>
+      <p>Will'O'Wisps: fires one homing will'O'Wisp tracking the player.</p>
+      
+    
+     <h4>Blue, Yellow and Pink Oni</h4>
+      <p>These three are boss Oni's their default functionality is the same as the red's however, they have a few additions.</p>
+    <h5>Default State:</h5>
+    
+      <p>Oni Orb: fires three projectiles, a central orb and two either side diagonaly.</p>
+      <p>Will'O'Wisps: fires three homing will'O'Wisp tracking the player.</p>
+      
+   
+    <h5>Beserk State:</h5>
+      <p>Triggers when bosses have 50% or less health.</p>
+    
+      <p>Beserk Vertical Oni Orbs: Has three variants of firing three projectiles in verticals, Right, middle and left. </p>
+      <p>Beserk Horizontal Oni Orbs: Has three variants of firing three projectiles in horizontals, top, middle and left. </p>
+      <p>Beserk Omni-Oni Orbs: Has a chance to fire all 9 possible projectiles. </p>
+      <p>Beserk Will'O'Wisps: fires six homing will'O'Wisp tracking the player.</p>
+      
+    </section>
+      -->
+<!--Skills developed section
+    <section>
+      <h2>New Skills Developed</h2>
+      
+        <p>New post process technique and how to alter visuals during runtime for gameplay purposes.</p>
+        <p>Attempted UI with a controller.</p>
+        <p>experimented with character possession from 3D characters to 2D characters.</p>
+        <p>Developed a bilingual narrative with a conclusion.</p>
+        <p>Provided diegetic information and objectives to the player using dialogue.</p>
+      
+    </section>
+            -->
+      
+    </section>
+     <!--Rights & Plugins section-->
+    <section id = "Portfolios">
+      <h2>体験版をダウンロード</h2>
+        <a href="https://elder483.itch.io/coin-op-capital">Itch.Io ページを訪れて体験版をダウンロードをください</a>
+
+      <h4>チームのポートフォリオ</h4>
+        <p>チームのポートフォリオを見てください:</p>
+        <p>Art: </p>
+      
+        <p>Laura Minns: <a href="https://www.artstation.com/lauraminns">Laura Minn's Artstation</a></p>
+      
+    </section>
+  <div class = "projectMargin"></div>
+     <!--Footer section-->
+    
+    <footer class = "coinOp">
+      <section id= "contact">
+      <h4>お問い合わせ・SNS</h4>
+        <p>英国の電話番号: 07592784198</p>
+        <p>メール: harryjameslinford@gmail.com </p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
+        <p>Line: Harry-James Linford</p>
+        <!--<p>Discord: elder483</p>-->
+        
+      </section>
+    </footer>
+  </body>
+</div>
+</html>
