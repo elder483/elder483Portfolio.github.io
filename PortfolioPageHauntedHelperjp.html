@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Kosugi+Maru&display=swap" rel="stylesheet">
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry-James Linford ハウンテッドヘルパー</title>
+    <link rel="icon" type="image/png" href="Images/HauntedHelper/Images/Favicon_HH.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+ <header>
+      <div class = "hauntedHelper">
+      <h1>ハウンテッドヘルパー</h1>
+      </div>
+<nav>
+  <ul class = "topnav">
+    <li>
+   <a href="indexjp.html">ホーム/自己紹介</a>
+    </li>
+
+    <li>
+      <a href="Skillsjp.html">能力と学歴</a>
+    </li>
+   <li>
+      
+    <li class="dropdown">
+    <a class="dropbtn" href="ProfessionalWorksjp.html">実務のプロジェクト</a>
+      <div class="dropdown-content">
+      <a href="PortfolioPageRD2jp.html">Retro Drive 2</a>
+      </div>
+   </li>
+   <li class="dropdown">
+            <a class="dropbtn hauntedHelper active" href="GamesJamsjp.html">ゲームジャム</a>
+          
+                 <div class="dropdown-content">
+                  <a href="PortfolioPageCoinOpCapitaljp.html">コイン・オープ・キャピタル</a>
+                  <a href="PortfolioPageHauntedHelperjp.html">ハウンテッドヘルパー</a>
+                  <a href="PortfolioPageQuantumAxle.html">Quantum Axle</a>
+                  <a href="PortfolioPageDoomedFlux.html">Doomed Flux</a>
+                  <a href="PortfolioPageStatic.html">Static</a>
+                  <a href="PortfolioPageArthurKingOfMars.html">Arthur King Of Mars</a>
+                  <a href="PortfolioPageREM.html">REM</a>
+                  <a href="PortfolioPageFlightOfThePhoenix.html">Flight Of The Phoenix</a>
+                 </div>
+                </li>
+  <li class="dropdown">
+            <a class="dropbtn" href="Solo_Universityjp.html">大学と個人のプロジェクト</a>
+           
+              
+                   <div class="dropdown-content">
+                  <a href="PortfolioPagePDisorder.html">P_Disorder</a>
+                  <a href="PortfolioPageSuzaku.html">Suzaku</a>
+                  <a href="PortfolioPageSakuraCell.html">Sakura Cell</a>
+                  <a href="PortfolioPageRobot.html">Robot</a>
+                   </div>
+                 </li>
+    <li>
+   <a href="#contact">お問い合わせ</a>
+    </li>
+
+  <li class ="language">
+                  <a href="HauntedHelper.html"><span>英語: English Language</span> <img src="Images/uk_flag.svg" width="24px"></a><!--height ="32px"-->
+                        </li>
+    </ul>
+</nav>
+</header>
+<!--Overview section--> 
+    <div class = "hauntedHelper">
+    <section> 
+<h2>オーバービュー</h2>
+      <div class ="initialImage hauntedHelper">
+      <img loading= "lazy" src="Images/HauntedHelper/Images/HauntedHelper_Title.png" width="400px" height= "300px" alt="Haunted Helper Title Screen.">
+      </div>
+     
+<div class = "text">
+<p>このプロジェクトは五人で一週間のゲームジャムでした。私の主な役割はプロジェクトリードとデザイナーと開発者でした。<br>
+   さらに、自分のボイスを実装し、音楽を作成し、VFXとライティングを作成しました。<br>
+   このゲームは任天堂Switch版のゼルダの伝説「夢をみる島」と任天堂DS版のゼルダの伝説「大地の汽笛」を触発しました。<br>
+   ゲームジャムのテーマは「助けの手」でした。<br>
+   私は敵のアビリティーを使ってパズルを解決するのゲームを作りたいんでした。<br>
+   このプロジェクトは自分の挑戦がUnityでゲームを作ることができ小さな時間期限がありました。</p>
+</div>
+ </section>
+
+      <h2>問題と解決</h2>
+        <h5>プレイヤー</h5>
+      <p>メカニックス</p>
+      <div class = "text">
+      <p>私はシステムを作成し、人間のキャラクターがゴールに到着してレベルをクリアしたいんでした。<br>
+         プレイヤーは何かの手伝うことが必要しレベルを進んでクリアすることが出来ます。この解決はゴーストを作りました。<br>
+         ボタンを押してプレイヤーは人間またはゴーストをコントロールすることが出来、ゴーストがコントロール時に同じボタンを押して敵を所有しアビリティーを使用することが出来ます。<br>
+         ゴーストのコントロールの時に人間のキャラクターまだ脆弱です。<br>
+         ゴーストのコントロールの時に人間のキャラクターは移動することが出来ません。そして、プレイヤーの置いてとても大切です。<br>
+         緊張を追加してプレイヤーはゴーストを召喚の限界を実装でした。もし実装しなかったらプレイヤーはいつも追いかけられたの中に安全になることです。<br>
+         解決は全ての敵が検出のシステムを実装してプレイヤーが範囲内になってゴーストを召喚することが出来ません。<br>
+         UIとVFXと音を使用するのでプレイヤーにとってその行動を連絡することが出来した。さらに、敵を所有するの時に敵がオーラを追加してカメラのエフェクトも変えています。</p>
+      </div>
+      
+      <h5>敵</h5>
+      <div class = "text">
+      <p>敵は一つのアビリティーがあり、両方がプレイヤーを倒することができ、またはコントロール中に手伝うすることができます。<br>
+         全ての敵は所有になることができます。さらにプレイヤーの検出範囲があります。<br>
+         複数の敵を計画したけれども二つの敵を実装しました。一つはデーモンウォールが塗り壁を触発した、さらに、他の敵はダークナイトです。<br>
+         デーモンウォールはプレイヤーにとって安全な方法で敵ので所有のメカニックを教えたいんでした。未来のレベルはデーモンウォールが敵を陥穽とか秘密の道を発見とかです。<br>
+         ダークナイトは移動の敵です。ダークナイトはパトロール点があります。さらに、ダークナイトが剣を振ってプレイヤーを倒することができ、さらに、コントロール中に剣を振りレバーを当たることができます。</p>
+        </div>
+      
+      <h5>物語とレベル構造</h5>
+      <div class = "text">
+      <p>ゲームプレイを集中したいんでしたので基本的なストーリーを実装しました。ゴーストと一緒にダンジョンを逃げます。このレベルはチュートリアルか初めてレベル場合です。<br>
+         レベルは敵から追い掛ける中にプレイヤーが逃げる方法が必要でした。そして、テレポートを追加しました。<br>
+         レベルはデザインしましたので2〜5分くらいにかけてレベルをクリアです。それから、もっと複雑のレベルを進めるつもりでした。</p>
+      </div>
+      <!--
+<p>The game was heavily inspired by The Legend of Zelda, Link's Awakening for the switch and the DS game legend of Zelda Spirit Tracks. The games Jam's theme this time was a "helping hand".<br>
+ The main objective for the player is to navigate the dungeon and get the human to reach the goal.<br>
+ Using the ability to use your ghost, the player will now take control of the ghost, the ghost has the ability to posses both the human and enemies in the scene.<br>
+Each enemy has their own unique ability, that the player gets to use whilst possessed.<br>
+This fits the theme perfectly, as the human needs the ghost to help them reach the end. The ghost needs to use the enemies to interact with elements within the dungeon to help the human too. <br>
+The player however, must tactically avoid enemies and when out of sight the player can summon their ghost and posses them. If spotted by the enemy the ghost will be too afraid to appear. <br>
+        
+    </section>
+    <!--Responsibilities section
+    <section>
+      <h2>Responsibilities</h2>
+      <p>This games jam took place during the final week of my games engine bootcamp, during this time we were learning a variety of topics and skills in the Unity engine.</p> 
+      <p> I wanted to showcase my understanding of the engine and a multitude of what I learned. </p>
+      <p>This meant I undertook tasks which are usually out of my field. </p>
+      <p>More polish and refinement was needed after the initial upload, which lead me to do additional tasks.</p>
+      
+      
+          <p>This is my first games jam using Unity.</p>
+          <p>Creating the game design (Game rules, mechanics, players, enemies, level progression). </p>
+          <p>Level Blockout and design</p>
+          <p>Managing the team.</p>
+          <p>Asset placement.</p>
+          <p>Audio Creation via cakewalk and implementation in Unity, including mixers</p>
+          <p>First game to feature my own voice (In Japanese)</p>
+          <p>VFX & Shaders.</p>
+          <p>UI/UX.</p>
+          <p>C# Programming</p>
+          <p>Learned more from my coders who tweaked my code to make it more efficient.</p>
+          <p>Camera Post Processing effect, tweaking.</p>
+          <p>Implementing new assets, such as 3D models, animations, timelines, skyboxes</p>
+          <p>Lighting</p>
+       
+      </ul> -->
+   
+<!--Story section-->
+<!--
+ <section>
+      <h2>Character Mechanics</h2>
+      
+ 
+      <p>Possess: The player can use the spacebar to summon the ghost and take control of it. Whilst playing as the ghost you can press the possession button again to posses certain objects and the human.</p>
+      <p>Action Ability: Player can use the left click when they have possessed certain characters to perform a task, such as the knight being able to swing it's sword. </p>
+      
+
+      
+    </section>
+
+    <section>
+      <h2>Enemy Mechanics</h2>
+
+      <p>All enemies have a sight radius if they see the human player, it will stop the player from summoning the ghost.</p>
+      
+      <h4>Demon Wall</h4>
+    
+      <p>Movement: this provides no challenge to the player but acts as a way to teach the player the possession mechanic. </p>
+    
+      
+      <h4>Knight</h4>
+  
+      <p>Movement.</p>
+      <p> Sword Swing: Can be used to open levers (when possessed), or attack and kill the human player. </p>
+    
+
+    </section>-->
+<!--Skills developed section
+    <section>
+      <h2>New Skills Developed</h2>
+      
+        <p>New post process technique and how to alter visuals during runtime for gameplay purposes.</p>
+        <p>Unity engine and C#</p>
+        <p>Destructilbe walls in unity.</p>
+        <p>VFX & Audio in unity.</p>
+        <p>Implementing my voice and learning cakewalk software.</p>
+
+    </section>-->
+
+    <!--Gallery section-->
+    <section> 
+     <h2>ギャラリー</h2>
+      <h3>画像</h3>
+           <div class = "responsive">
+        <div class = "gallery hauntedHelper">
+           <a target="_blank" href= "Images/HauntedHelper/Images/HauntedHelper_Title.png">
+      <img loading= "lazy" src="Images/HauntedHelper/Images/HauntedHelper_Title.png" width="400px" height= "300px" alt="Haunted Helper Title Screen.">
+              </a>
+              <div class="desc">タイトルページ。</div>
+        </div>
+      </div>
+             <div class = "responsive">
+        <div class = "gallery hauntedHelper">
+           <a target="_blank" href= "Images/HauntedHelper/Images/HauntedHelper_PrototypeLevelOverview.png">
+      <img loading= "lazy" src="Images/HauntedHelper/Images/HauntedHelper_PrototypeLevelOverview.png" width="400px" height= "300px"  alt="Haunted Helper level blockout.">
+              </a>
+              <div class="desc">Unityのレベルブロックアウト。</div>
+        </div>
+      </div>
+             <div class = "responsive">
+        <div class = "gallery hauntedHelper">
+           <a target="_blank" href= "Images/HauntedHelper/Images/HauntedHelper_LevelOverview.png">
+      <img loading= "lazy" src="Images/HauntedHelper/Images/HauntedHelper_LevelOverview.png" width="400px" height= "300px" alt="Haunted Helper level Overview.">
+              </a>
+              <div class="desc">エンジンの中にレベルのスクリーンショット。</div>
+        </div>
+      </div>
+             <div class = "responsive">
+        <div class = "gallery hauntedHelper">
+           <a target="_blank" href= "Images/HauntedHelper/Images/HauntedHelper_MainSection.png">
+      <img loading= "lazy" src="Images/HauntedHelper/Images/HauntedHelper_MainSection.png" width="400px" height= "300px"  alt="Main Section.">
+              </a>
+              <div class="desc">レベルのスクリーンショット。</div>
+        </div>
+      </div>
+             <div class = "responsive">
+        <div class = "gallery hauntedHelper">
+           <a target="_blank" href= "Images/HauntedHelper/Images/HauntedHelper_EndScreen.png">
+      <img loading= "lazy" src="Images/HauntedHelper/Images/HauntedHelper_EndScreen.png" width="400px" height= "300px" alt="Haunted Helper End Screen.">
+              </a>
+              <div class="desc">クレジットページ。</div>
+        </div>
+      </div>
+      
+      
+      <h3>ギフ</h3>
+      
+         <div class = "responsive">
+            <div class = "gif hauntedHelper">
+         <!--<img loading= "lazy" src="Images/HauntedHelper/Gifs/HauntedHelper_Alert.gif" alt="Haunted Helper Alert.">-->
+                    <video autoplay loop muted playsinline> 
+      <source src="Images/HauntedHelper/Gifs/HauntedHelper_Alert.mp4" type="video/mp4">
+    </video>
+            </div>
+         </div>
+       <div class = "responsive">
+            <div class = "gif hauntedHelper">
+         <!--<img loading= "lazy" src="Images/HauntedHelper/Gifs/HauntedHelper_Ghost.gif" alt="Haunted Helper Ghost.">-->
+                <video autoplay loop muted playsinline> 
+      <source src="Images/HauntedHelper/Gifs/HauntedHelper_Ghost.mp4" type="video/mp4">
+    </video>
+            </div>
+       </div>
+       <div class = "responsive">
+            <div class = "gif hauntedHelper">
+         <!--<img loading= "lazy" src="Images/HauntedHelper/Gifs/HauntedHelper_Possession.gif" alt="Haunted Helper Possessing.">-->
+                <video autoplay loop muted playsinline> 
+      <source src="Images/HauntedHelper/Gifs/HauntedHelper_Possession.mp4" type="video/mp4">
+    </video>
+            </div>
+       </div>
+       <div class = "responsive">
+            <div class = "gif hauntedHelper">
+         <!--<img loading= "lazy" src="Images/HauntedHelper/Gifs/HauntedHelper_Knight.gif" alt="Haunted Helper Knight.">-->
+                <video autoplay loop muted playsinline> 
+      <source src="Images/HauntedHelper/Gifs/HauntedHelper_Knight.mp4" type="video/mp4">
+    </video>
+            </div>
+       </div>
+       <div class = "responsive">
+            <div class = "gif hauntedHelper">
+         <!--<img loading= "lazy" src="Images/HauntedHelper/Gifs/HauntedHelper_CollectsKey.gif" alt="Haunted Helper Collects key.">-->
+                <video autoplay loop muted playsinline> 
+      <source src="Images/HauntedHelper/Gifs/HauntedHelper_CollectsKey.mp4" type="video/mp4">
+    </video>
+            </div>
+       </div>
+       <div class = "responsive">
+            <div class = "gif hauntedHelper">
+         <!--<img loading= "lazy" src="Images/HauntedHelper/Gifs/HauntedHelper_Teleport.gif" alt="Haunted Helper Teleport.">-->
+                <video autoplay loop muted playsinline> 
+      <source src="Images/HauntedHelper/Gifs/HauntedHelper_Teleport.mp4" type="video/mp4">
+    </video>
+            </div>
+       </div>
+
+     
+      
+      <h3>映像</h3>
+        <h4>メカニックスオーバービュートレーラー</h4>
+      <div class = "responsive">
+       <div class ="video hauntedHelper">
+      <iframe loading= "lazy" width="560" height="315"
+        src="https://www.youtube.com/embed/Ha2SXJn4390?si=800HtrboMv_GvA20" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+       </div>
+      </div>
+    
+       
+        <h4>完全なゲームプレイ</h4>
+         <div class = "responsive">
+       <div class ="video hauntedHelper">
+        <iframe loading= "lazy" width="560" height="315" 
+          src="https://www.youtube.com/embed/xTnoDSsLB3o?si=xhl8gtFbDns6p17y"
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+       </div>
+         </div>
+      
+    </section>
+
+          <section>
+      <h2>体験版の物語</h2>
+      <div class = "text">
+    <p>ゲームのシナリオはプレイヤーとゴーストと一緒にダンジョンで閉じ込められた。一緒に協力と敵のアビリティーを使用して逃げられることができます。</p>
+      
+      </div>
+    </section>
+
+     <!--Rights & Plugins section-->
+    <section id = "Portfolios">
+      <h2>体験版をダウンロードかWeb GL版</h2>
+        <a href="https://elder483.itch.io/haunted-helper">Itch.Io pageで体験版をダウンロードすることが出来ます。</a>
+
+      <h4>チームのポートフォリオ</h4>
+        <p>チームのポートフォリオを見てください:</p>
+        <p>アート: </p>
+      
+        <p>Laura Minns: <a href="https://www.artstation.com/lauraminns">Laura Minn's Artstation</a></p>
+        <p>Ebony Asquith: <a href="https://ebony230902.artstation.com/">Ebony Asquith's Artstation</a></p>
+        
+
+      <p>プログラマー: </p>
+
+        <p>Jayesh Modhwadia: <a href="https://jayeshmodhwadia16.wixsite.com/projectsbyjayesh">Jayesh Modhwadia's ポートフォリオ</a></p>
+        <p>Nick Harding: <a href="https://portfolio.nickharding.org/">Nick Harding's ポートフォリオ</a></p>  
+        
+
+      
+    </section>
+  <div class = "projectMargin"></div>
+     <!--Footer section-->
+    
+    <footer class = "hauntedHelper">
+      <section id= "contact">
+      <h4>お問い合わせ・SNS</h4>
+        <p>英国の電話番号: 07592784198</p>
+        <p>メール: harryjameslinford@gmail.com </p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
+        <p>Line: Harry-James Linford</p>
+        <!--<p>Discord: elder483</p>-->
+        
+      </section>
+    </footer>
+  </body>
+</div>
+</html>
