@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&family=Kosugi+Maru&display=swap" rel="stylesheet">
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry-James Linford ドゥームドフラックス</title>
+     <link rel="icon" type="image/png" href="Images/DoomedFlux/Images/Favicon_DF.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class = "doomedFlux">
+      <h1>ドゥームドフラックス</h1>
+      </div>
+<nav>
+  <ul class = "topnav">
+    <li>
+   <a href="indexjp.html">ホーム/自己紹介</a>
+    </li>
+
+    <li>
+      <a href="Skillsjp.html">能力と学歴</a>
+    </li>
+   <li>
+      
+    <li class="dropdown">
+    <a class="dropbtn" href="ProfessionalWorksjp.html">実務のプロジェクト</a>
+      <div class="dropdown-content">
+      <a href="PortfolioPageRD2jp.html">Retro Drive 2</a>
+      </div>
+   </li>
+   <li class="dropdown">
+            <a class="dropbtn doomedFlux active" href="GamesJamsjp.html">ゲームジャム</a>
+          
+                 <div class="dropdown-content">
+                  <a href="PortfolioPageCoinOpCapitaljp.html">コイン・オープ・キャピタル</a>
+                  <a href="PortfolioPageHauntedHelperjp.html">ハウンテッドヘルパー</a>
+                  <a href="PortfolioPageQuantumAxlejp.html">クアンタムアクセル</a>
+                  <a href="PortfolioPageDoomedFluxjp.html">ドゥームドフラックス</a>
+                  <a href="PortfolioPageStatic.html">Static</a>
+                  <a href="PortfolioPageArthurKingOfMars.html">Arthur King Of Mars</a>
+                  <a href="PortfolioPageREM.html">REM</a>
+                  <a href="PortfolioPageFlightOfThePhoenix.html">Flight Of The Phoenix</a>
+                 </div>
+                </li>
+  <li class="dropdown">
+            <a class="dropbtn" href="Solo_Universityjp.html">大学と個人のプロジェクト</a>
+           
+              
+                   <div class="dropdown-content">
+                  <a href="PortfolioPagePDisorder.html">P_Disorder</a>
+                  <a href="PortfolioPageSuzaku.html">Suzaku</a>
+                  <a href="PortfolioPageSakuraCell.html">Sakura Cell</a>
+                  <a href="PortfolioPageRobot.html">Robot</a>
+                   </div>
+                 </li>
+      <li class ="language">
+                  <a href="PortfolioPageDoomedFlux.html"><span>英語: English Language</span> <img src="Images/uk_flag.svg" width="24px"></a><!--height ="32px"-->
+                        </li>
+    <li>
+   <a href="#contact">お問い合わせ</a>
+    </li>
+    </ul>
+</nav>
+</header>
+<!--Overview section-->
+    <div class = "doomedFlux">
+    <section>
+<h2>オーバービュー</h2>
+      <div class = "initialImage doomedFlux">
+        <img loading= "lazy"src="Images/DoomedFlux/Images/DoomedFlux_Title.png" width="400px" height= "300px"  alt="DoomedFlux Title Screen.">
+      </div>
+
+      <div class = "text">
+      <p>This project was a two person week-long games jam. My primary roles were project lead, designer and developer.<br>
+         Additionally I handled everything inside the engine including asset placement UI and more.<br>
+         The games theme was 'push and pull', which required me to experiment with physics.<br>
+         I created a horror experience where the player took an object from the start to the end of the level.</p>
+      </div>
+    </section>
+ 
+      <h2>問題と解決</h2>
+        <h5>The Player Character and the Box</h5> 
+      <div class = "text">
+      <p>Movement and Traversal</p>
+      <p>The first issue was the form of movement I wanted to implement.<br>
+         I decided on a 2.5D game utilising planar movement. I could accomplish some interesting level design and scenarios by using the box.<br>
+         I wanted the player to be able to use the box for multiple tasks.<br>
+         The player could jump on the box and use it as a platform to reach other areas of the ship. One such use was to access air vents.<br>
+         I wanted the player to crawl through the vents in a first person perspective. To achieve this I had a separate actor that could be possessed.<br>
+         This would break up some of the 2.5D sections and lead the player to secrets or other sections of the ship.<br>
+         Some areas would have 3D segments where the player could walk in the background and foreground. I used collision areas to switch the movements.</p>
+      </div>
+      
+      <h5>コンバット</h5>
+      <div class = "text">
+      <p>The player could kick the box at enemies which would defeat them.<br>
+         To add tension some sections would separate the player from the box meaning they would be powerless.</p>
+      </div>
+      
+      <h5>ストーリーとレベル構造</h5>
+      <div class = "text">
+      <p>I wanted to drip feed the story to the player in a manner similar to the 'Dark Souls' games.<br>
+         To accomplish this data pads were scattered across the level. Collecting them would provide story elements regarding the crew.<br>
+         The level was crafted in a way which required the player to use the box to progress.<br> 
+         The box could be used on certain panels to power up the space station allowing teleporters and elevators to be used.<br>
+         Some segments involved leaving the box behind, which meant the level had to be designed to loop back to retrieve it at a later point.<br>
+         The next challenge was to provide tension at the right points through pacing and finding ways to surprise the player.<br>
+         A singular vent section included crawling away from a zombie.<br>
+         For the final segment I had to establish what the purpose of dragging the box to its destination was. What was the goal?<br>
+         The box would also act as a bomb and when put in the right place a countdown would begin.<br>
+         This meant the player had to escape the space station within a time limit, whilst avoiding zombies.</p>
+      </div>
+    <!--Responsibilities section-->
+    <!--<section>
+      <h2>Responsibilities</h2>
+        
+          <p>Creating the game design (Game rules, mechanics, players, enemies, level progression). </p>
+          <p>Event planner, enemy placement, bomb/timer.</p>
+          <p>Level Design</p>
+          <p>Planar movement and first person vent crawling mechanics.</p>
+          <p>Managing the team.</p>
+          <p>Asset placement.</p>
+          <p>UI/UX. (UI animations)</p>
+          <p>All content developed via Blueprints</p>
+          <p>Japanese Translations</p>
+         
+    </section>-->
+<!--Story section-->
+   
+<!--
+ <section>
+      <h2>Character Mechanics</h2>
+      
+    
+      <p>Push/Pull: Player can push and pull a power box, it has multiple uses.</p>
+      <p>Kick: Player can kick the box which will kill enemies if they are hit.</p>
+      <p>Jump: Player can jump to reach different areas of the level</p>
+      <p>Fast Crawl (Vents Only): Player can hold a button to move quicker in the vents but will cost oxygen to perform.</p>
+      
+      <h2>Box/Level Mechanics</h2>
+      
+    
+      <p>A Weapon: The box can be used as a weapon, if the player kicks it.</p>
+      <p>A Platform: The player can use the box as a platform to reach different areas of the level</p>
+      <p>A Power-Source: The box can be used as a power source which will turn on the lights, activate teleporters or elevators, and also it will become a bomb.</p>
+      
+    </section>
+
+    <section>
+      <h2>Enemy Mechanics</h2>
+      
+      <h4>Zombies</h4>
+    
+      <p>Zombies will either crawl or walk towards the player at varying speeds.</p>
+      <p>Zombies will strike or bite the player if they get close.</p>
+      
+      
+    </section>-->
+<!--Skills developed section-->
+   <!-- <section>
+      <h2>New Skills Developed</h2>
+      
+        <p>Experimented with Unreal Engine 5's physics systems</p>
+        <p>UI Animations.</p>
+        <p>Using a game object to control lighting.</p>
+        <p>Adding controlled zones for 3D movement, and then the rest remained 2.5D or first person for vents.</p>
+
+      </ul>
+    </section>-->
+
+    <!--Gallery section-->
+    <section> 
+     <h2>ギャラリー</h2>
+      <h3>画像</h3>
+               <div class = "responsive">
+        <div class = "gallery doomedFlux">
+           <a target="_blank" href= "Images/DoomedFlux/Images/DoomedFlux_Title.png">
+      <img loading= "lazy"src="Images/DoomedFlux/Images/DoomedFlux_Title.png" width="400px" height= "300px"  alt="DoomedFlux Title Screen.">
+             </a>
+          <div class="desc">Doomed Flux's Title Page.</div>
+        </div>
+      </div>
+             
+       
+                  <div class = "responsive">
+        <div class = "gallery doomedFlux">
+           <a target="_blank" href= "Images/DoomedFlux/Images/DoomedFlux_Hallway.png">
+      <img loading= "lazy" src="Images/DoomedFlux/Images/DoomedFlux_Hallway.png" width="400px" height= "300px"  alt="DoomedFlux Hallway.">
+             </a>
+          <div class="desc">Planar movement in the hallway.</div>
+        </div>
+      </div>
+             
+            
+                  <div class = "responsive">
+        <div class = "gallery doomedFlux">
+           <a target="_blank" href= "Images/DoomedFlux/Images/DoomedFlux_KickBox.png">
+      <img loading= "lazy" src="Images/DoomedFlux/Images/DoomedFlux_KickBox.png" width="400px" height= "300px"  alt="DoomedFlux Kick Box.">
+             </a>
+          <div class="desc">Defeating zombies by kicking the box.</div>
+        </div>
+      </div>
+             
+                  <div class = "responsive">
+        <div class = "gallery doomedFlux">
+           <a target="_blank" href= "Images/DoomedFlux/Images/DoomedFlux_FirstPersonLasers.png">
+      <img loading= "lazy" src="Images/DoomedFlux/Images/DoomedFlux_FirstPersonLasers.png" width="400px" height= "300px"  alt="DoomedFlux Lasers.">
+             </a>
+          <div class="desc">Avoid lasers whilst crawling through vents.</div>
+        </div>
+      </div>
+             
+                  <div class = "responsive">
+        <div class = "gallery doomedFlux">
+           <a target="_blank" href= "Images/DoomedFlux/Images/DoomedFlux_Teleporter.png">
+      <img loading= "lazy" src="Images/DoomedFlux/Images/DoomedFlux_Teleporter.png" width="400px" height= "300px"  alt="DoomedFlux Teleporter.">
+             </a>
+          <div class="desc">The player heading towards a teleporter.</div>
+        </div>
+      </div>
+             
+                  <div class = "responsive">
+        <div class = "gallery doomedFlux">
+           <a target="_blank" href= "Images/DoomedFlux/Images/DoomedFlux_RunAway.png">
+      <img loading= "lazy" src="Images/DoomedFlux/Images/DoomedFlux_RunAway.png" width="400px" height= "300px"  alt="DoomedFlux Run Away.">
+             </a>
+          <div class="desc">The player fleeing from zombies.</div>
+        </div>
+      </div>
+             
+                  <div class = "responsive">
+        <div class = "gallery doomedFlux">
+           <a target="_blank" href= "Images/DoomedFlux/Images/DoomedFlux_EndScreen.jpg">
+      <img loading= "lazy" src="Images/DoomedFlux/Images/DoomedFlux_EndScreen.jpg" width="400px" height= "300px" alt="DoomedFlux End Screen.">
+             </a>
+          <div class="desc">Doomed Flux's Credits Page.</div>
+        </div>
+      </div>
+      
+
+      <h3>ギフ</h3>
+
+         <div class = "responsive">
+        <div class = "gif doomedFlux">
+      <!--<img loading= "lazy" src="Images/DoomedFlux/Gifs/DoomedFlux_PlanarMovement.gif" alt="DoomedFlux Planar Movement.">-->
+                 <video autoplay loop muted playsinline> 
+      <source src="Images/DoomedFlux/Gifs/DoomedFlux_PlanarMovement.mp4" type="video/mp4">
+    </video>
+        </div>
+         </div>
+         <div class = "responsive">
+        <div class = "gif doomedFlux">
+      <!--<img loading= "lazy" src="Images/DoomedFlux/Gifs/DoomedFlux_Box.gif" alt="DoomedFlux Box.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/DoomedFlux/Gifs/DoomedFlux_Box.mp4" type="video/mp4">
+    </video>
+        </div>
+         </div>
+         <div class = "responsive">
+        <div class = "gif doomedFlux">
+      <!--<img loading= "lazy" src="Images/DoomedFlux/Gifs/DoomedFlux_Jump.gif" alt="DoomedFlux Jump.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/DoomedFlux/Gifs/DoomedFlux_Jump.mp4" type="video/mp4">
+    </video>
+        </div>
+         </div>
+         <div class = "responsive">
+        <div class = "gif doomedFlux">
+      <!--<img loading= "lazy" src="Images/DoomedFlux/Gifs/DoomedFlux_Vents.gif" alt="DoomedFlux Vents.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/DoomedFlux/Gifs/DoomedFlux_Vents.mp4" type="video/mp4">
+    </video>
+        </div>
+         </div>
+         <div class = "responsive">
+        <div class = "gif doomedFlux">
+      <!--<img loading= "lazy" src="Images/DoomedFlux/Gifs/DoomedFlux_PowerPoints.gif" alt="DoomedFlux PowerPoints.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/DoomedFlux/Gifs/DoomedFlux_PowerPoints.mp4" type="video/mp4">
+    </video>
+        </div>
+         </div>
+         <div class = "responsive">
+        <div class = "gif doomedFlux">
+      <!--<img loading= "lazy" src="Images/DoomedFlux/Gifs/DoomedFlux_Doors.gif" alt="DoomedFlux Doors.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/DoomedFlux/Gifs/DoomedFlux_Doors.mp4" type="video/mp4">
+    </video>
+        </div>
+         </div>
+         <div class = "responsive">
+        <div class = "gif doomedFlux">
+      <!--<img loading= "lazy"src="Images/DoomedFlux/Gifs/DoomedFlux_Anti-Gravity.gif" alt="DoomedFlux Anti-Gravity.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/DoomedFlux/Gifs/DoomedFlux_Anti-Gravity.mp4" type="video/mp4">
+    </video>
+        </div>
+         </div>
+         <div class = "responsive">
+        <div class = "gif doomedFlux">
+      <!--<img loading= "lazy" src="Images/DoomedFlux/Gifs/DoomedFlux_BombSet.gif" alt="DoomedFlux Bomb.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/DoomedFlux/Gifs/DoomedFlux_BombSet.mp4" type="video/mp4">
+    </video>
+        </div>
+         </div>
+
+     
+      
+      <h3>映像</h3>
+        <h4>メカニックスオーバービュートレーラー</h4>
+         <div class = "responsive">
+       <div class ="video doomedFlux">
+ <iframe loading= "lazy" width="560" height="315" 
+   src="https://www.youtube.com/embed/VfVXM6f9NME?si=jFfiwRdn6e3nKIcg"
+   title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+   </iframe>
+       </div>
+         </div>
+    
+       
+        <h4>完全なゲームプレイ</h4>
+        <div class = "responsive">
+       <div class ="video doomedFlux">
+    <iframe loading= "lazy" width="560" height="315" 
+      src="https://www.youtube.com/embed/vpqaJHo17QI?si=LVvgmgqRCbpXlnK2"
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+      </iframe>
+       </div>
+        </div>
+      
+    </section>
+
+       <section>
+      <h2>体験版の物語</h2>
+      <div class = "text">
+    <p>A 2.5D horror/platformer where the goal is to push and pull the box and use it to activate various panels across the space station. Be careful of the Infection!</p>
+      </div>
+    </section>
+     <!--Rights & Plugins section-->
+    <section id = "portfolios">
+      <h2>体験版をダウンロード</h2>
+        <a href="https://elder483.itch.io/doomedflux">Itch.Io ページを訪れて体験版をダウンロードをください</a>
+
+      <h4>チームのポートフォリオ</h4>
+        <p>チームのポートフォリオを見てください:</p>
+        <p>アート/ストーリー: </p>
+      
+        <p>Laura Minns: <a href="https://www.artstation.com/lauraminns">Laura Minn's Artstation</a></p>
+     
+      
+          <p>声優: </p>
+    <div class = "text">
+        <p>Warren McKenzie: Adjusted his voice using Unreal Engine 5's audio settings. </p>
+    </div>
+    </section>
+
+     <!--Footer section-->
+    <div class = "projectMargin"></div>
+  
+    <footer class = "doomedFlux">
+      <section id= "contact">
+      <h4>お問い合わせ・SNS</h4>
+        <p>英国の電話番号: 07592784198</p>
+        <p>メール: harryjameslinford@gmail.com </p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
+        <p>Line: Harry-James Linford</p>
+        <!--<p>Discord: elder483</p>-->
+        
+      </section>
+    </footer> 
+    </body>
+    </div>
+    </html>
+    
