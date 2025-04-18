@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Yuji+Mai&display=swap" rel="stylesheet">
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry-James Linford アーサー・キング・オブ・マーズ</title>
+     <link rel="icon" type="image/png" href="Images/ArthurKingOfMars/Images/Favicon_KA.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <div class = "aKOM">
+      <h1>アーサー・キング・オブ・マーズ</h1>
+      </div>
+      
+<nav>
+  <ul class = "topnav">
+    <li>
+   <a href="indexjp.html">ホーム/自己紹介</a>
+    </li>
+
+    <li>
+      <a href="Skillsjp.html">能力と学歴</a>
+    </li>
+   <li>
+      
+    <li class="dropdown">
+    <a class="dropbtn" href="ProfessionalWorksjp.html">実務のプロジェクト</a>
+      <div class="dropdown-content">
+      <a href="PortfolioPageRD2jp.html">Retro Drive 2</a>
+      </div>
+   </li>
+   <li class="dropdown">
+            <a class="dropbtn static active" href="GamesJamsjp.html">ゲームジャム</a>
+          
+                 <div class="dropdown-content">
+                  <a href="PortfolioPageCoinOpCapitaljp.html">コイン・オープ・キャピタル</a>
+                  <a href="PortfolioPageHauntedHelperjp.html">ハウンテッドヘルパー</a>
+                  <a href="PortfolioPageQuantumAxlejp.html">クアンタムアクセル</a>
+                  <a href="PortfolioPageDoomedFluxjp.html">ドゥームドフラックス</a>
+                  <a href="PortfolioPageStaticjp.html">スタティック</a>
+                  <a href="PortfolioPageArthurKingOfMarsjp.html">アーサー・キング・オブ・マーズ</a>
+                  <a href="PortfolioPageREM.html">REM</a>
+                  <a href="PortfolioPageFlightOfThePhoenix.html">Flight Of The Phoenix</a>
+                 </div>
+                </li>
+  <li class="dropdown">
+            <a class="dropbtn" href="Solo_Universityjp.html">大学と個人のプロジェクト</a>
+           
+              
+                   <div class="dropdown-content">
+                  <a href="PortfolioPagePDisorder.html">P_Disorder</a>
+                  <a href="PortfolioPageSuzaku.html">Suzaku</a>
+                  <a href="PortfolioPageSakuraCell.html">Sakura Cell</a>
+                  <a href="PortfolioPageRobot.html">Robot</a>
+                   </div>
+                 </li>
+    <li class ="language">
+                  <a href="PortfolioPageArthurKingOfMarsjp.html"><span>英語: English Language</span> <img src="Images/uk_flag.svg" width="24px"></a><!--height ="32px"-->
+                        </li>
+    <li>
+   <a href="#contact">お問い合わせ</a>
+    </li>
+    </ul>
+</nav>
+</header>
+<!--This is the row section it's div ends just prior to the footer-->
+
+<!--Aside section allows for swifter navigation within the web page, should be sticky-->
+
+    <!--<div class= "col-3 col-s-3">-->
+    <!--
+    <div class= "aside">
+      <h5>Page Navigation</h5>
+      <a href="#overview">Overview</a>
+      <a href="#responsibilities">Responsibilities</a>
+      <a href="#synopsis">Synopsis</a>
+      <a href="#gameMechanics">Mechanics</a>
+      <a href="#newSkills">New Skills</a>
+      <a href="#gallerySection">Gallery</a>
+      <a href="#portfolios">Portfolios</a>
+      <a href="#contact">Contact</a>
+   </div>
+    </div>
+   <!-- <div class= "col-12 col-s-9">-->
+<!--Overview section-->
+    <div class = "aKOM">
+    <section id ="overview">
+<h2>オーバービュー</h2>
+<div class = "initialImage aKOM">
+<img loading="lazy" src="Images/ArthurKingOfMars/Images/AthurKingOfMarsTitle.jpg" width="400px" height= "300px" alt="Arthur King Of Mars Title Screen.">
+</div>
+
+      <div class = "text">
+<p>This was an eleven person project over the course of a weekend. My primary roles was lead boss designer for The Lady of the Lake and developer of her boss battle.<br>
+   Additionally I designed mechanics for the remaining bosses.<br>
+   Created for the global Games Jam 2021 <a href= "https://globalgamejam.org/2021/games/arthur-flashdragon-8">Global games Jam Submission.</a><br>
+   The game is a first person action game focusing on melee combat, designed to be a boss rush experience.<br>
+   The theme for the project was 'lost and found'. Our concept was for King Arthur to have lost his sword, crown and companions and had to retrieve them.</p>
+      </div>
+    </section>
+<section>
+<h2>問題と解決</h2>
+  <h5>レイディ・オブ・ザ・レイク</h5>
+  <div class = "text">
+  <p>メカニックス</p>
+  <p>In this stage of the game the Lady of the Lake would be the first boss and Arthur would be at his weakest state.<br>
+     This meant the Lady of the Lake possessed less health than the other bosses to compensate for Arthur's damage output.<br>
+     I chose to make her attacks water based and would keep the player moving. Geysers of water that home-in on the player and a single shot projectile provided this challenge.<br> 
+     I incorporated a dash/teleport move which would give the Lady of the Lake a quick way to evade Arthur.<br>
+     If I chose not to implement this feature the boss would remain stationary, making the fight not only effortless but not engaging.<br>
+     With Excalibur providing an ability to air dash, I needed to find a way to teach the player how to jump prior to the next boss.<br>
+     I designed a second phase to the boss fight, where the Lady of the Lake would hover at the center of the arena.<br>
+     This time however the geysers would also have a rock on top. This required the player to jump on these rocks, and whilst being lifted up, jump and then strike the Lady of the Lake.<br>
+     The rocks wouldn't apply damage, but if the player walked under them and into the geysers, damage would be applied.<br>
+     Whilst suspended in the air, the Lady of the Lake would react to the players close proximity, and carry out a spin attack.</p>
+  </div>
+   <h5>モルガナ</h5>
+  <div class = "text">
+  <p>メカニックス</p>
+  <p>With Excalibur in hand, Arthur's damage output has increased and he could now air dash. The new boss was designed to encourage the player to air-dash.<br>
+     Prior to my input Morgana's only attack was going to be a slam of tentacles. However, I implemented leeches that would follow and hit the player, and disappear on impact.<br>
+     I designed two types of leeches. Smaller leeches move quicker and deal smaller amounts of damage, this meant that using the air dash to dodge them was useful.<br>
+     The second, which would appear in phase 2, were larger in scale, slower, and dealt larger damage.<br>
+     The combination of the two leeches and the tentacle slams provided an interesting experience for a stationary boss.</p>
+  </div>
+
+   <h5>マーリン</h5>
+  <div class = "text">
+  <p>メカニックス</p>
+  <p>I designed the central mechanic for Merlin. I was inspired by 'The Legend of Zelda Ocarina of Time's Ganondorf' boss battle.<br>
+     Merlin would fire a magic orb which the player would have to time their attacks to launch the orb back at Merlin.<br>
+     This method was used as a way for the player to master their timing of attacks unlike prior bosses who didn't have this requirement.<br>  
+     Merlin would also remain airborne for a large majority of the time meaning the player would have to pick their moments to approach him when grounded.<br>
+     Merlin would become 'Ascended' rather than having a second phase. This was the ultimate challenge.<br>
+     In this segment, Merlin would use Morgana's tentacles, a powered-up version of his orb and was intended to use some mechanics from the Lady of the Lake.<br>
+     However, due to time constraints only Morgana's moves were incorporated.</p>
+  </div>
+
+  <h5>ストーリーとレベル構造</h5>
+  <div class = "text">
+  <p>As the primary focus was bosses, each level was a crafted arena specific to the boss.<br> 
+    Thematically, each level was different sections of Mars, all of the levels had rocky areas but enough variation to add a difference, for example The initial area has a body of water.<br>
+    The Lady of the Lake's arena also had rocks which could be hit by Arthur to use as a method to jump and hit the boss.</p>
+  </div>
+  
+</section>
+    <!--Responsibilities section-->
+   <!-- <section id = "responsibilities">
+      <h2>Responsibilities</h2>
+      
+      <ul>
+        
+          <p>Creating and designing the boss fight for Lady of the lake</p>
+          <p> Provided additional support for the remaining bosses including the concept of leeches that chase the player and reflecting Merlin's magic orbs. </p>
+          <p>All content developed via Blueprints</p>
+         
+        
+      </ul>
+    </section>-->
+
+
+<!-- <section class = "mechanics">
+   <div id = "gameMechanics"></div>
+      <h2>Character Mechanics </h2>
+
+      <p>Movement: The players main movement. </p>
+      <p>Jump: The player will have to use jump to take on some of the bosses. </p>
+      <p>Sword Strike: The player can swing their sword three times in succession before a combo resets. (Can be used to reflect Merlin's magic)</p>
+      <p>Air Dash (Requires Excalibur): Once the player acquires Excalibur they gain the ability to Air Dash.</p>
+    
+      <h2>Level Mechanics</h2>
+      
+    
+      <p>Each environment is constructed to support the boss and player's mechanics. This includes rocks to jump on or hit closer to a boss.</p>
+ 
+      
+    
+      
+    </section>
+
+    <section class = "mechanics">
+      <h2>Boss Mechanics</h2>
+      
+      <h4>Lady of the Lake</h4>
+   <h5>Phase 1</h5>
+   <p>The Lady of the Lake in this phase is swift and enjoys keeping the player on their feet, with a few projectiles and a dash.</p>
+
+
+      <p>Aqua Shot: Fires a fast orb of water that homes towards the player.</p>
+      <p>Water Geyser: A slow moving projectile that will home towards the player, with the aim to keep the player moving around.</p>
+      <p>Teleport Dash: The Lady of the Lake doesn't enjoy sitting still for too long, and will dash to another location, this keeps the player moving frequently.</p>
+
+      
+      <h5>Phase 2</h5>
+      <p> During this phase the Lady of the Lake, enjoys staying airborn, utilising her rising rocks mechanic the player can jump and strike her.</p>
+      
+       <p>Rising Rocks: Creates rocks being risen by geysers, the geysers will hurt the player so staying above them is key. Utilise these rocks as platforms to hurt the boss.</p>
+       <p>Spinning Geyser: The Lady of the Lake will create twin geysers from her palms, and spin causing damage to the player, this is a deterent causing the player to time their strikes. </p>
+      
+
+        <h4>Morgana</h4>
+   <h5>Phase 1</h5>
+   <p>Morgana utilises her tentacles to strike the player, additionally her barage of leeches will keep the player running.</p>
+      
+
+      <p>Leeches: Spawns sentient leeches that will chase the player, dealing damage when they hit the player.</p>
+      <p>Tentacles: Slams the ground and the player if they remain close to Morgana.</p>
+      
+      
+      <h5>Phase 2</h5>
+      <p> During this phase Morgana's tentacle slams are more frequent and she unleashes larger leeches as well, causing higher damage.</p>
+      
+       <p>Giant Leeches: Slower than normal leeches but provide more damage, in combination with the smaller leeches the player should avoid these.</p>
+      
+
+         <h4>Merlin</h4>
+   <h5>Phase 1</h5>
+   <p>Merlin utilises magic orbs and requires the player to strike back the orbs focuses in timing.</p>
+      
+
+      <p>Magic orbs: Spawns magic orbs that home towards the player, striking them will send them back towards Merlin.</p>
+      
+    
+      
+      <h5>Phase 2</h5>
+      <p> Merlin has Acsended, Merlin ascended now fires stronger projectiles but also summons tentacles and leeches from Morgana.</p>
+      
+       <p>Tentacles: These flail and try to strike the player.</p>
+      
+      
+    </section>-->
+<!--Skills developed section-->
+   <!-- <section id = "newSkills">
+      <h2>New Skills Developed</h2>
+      
+        <p>Created a boss in Unreal Engine 4 using blueprints.</p>
+        <p>integrating Animations for combat.</p>
+        <p>Created phases.</p>
+        <p>Assisted with other bosses.</p>
+
+    
+    </section>-->
+
+    <!--Gallery section-->
+    
+    <section id="gallerySection"> 
+      
+     <h2>ギャラリー</h2>
+      <h3>画像</h3>
+
+      <!--Title-->
+        <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/ArthurKingOfMars/Images/AthurKingOfMarsTitle.jpg">
+            <!--The example sizes the image in the img section -->
+           <img loading="lazy" src="Images/ArthurKingOfMars/Images/AthurKingOfMarsTitle.jpg" width="400px" height= "300px" alt="Arthur King Of Mars Title Screen.">
+          </a>
+          <div class="desc">タイトルページ。</div>
+        </div>
+      </div>
+
+       <!--Lady of the lake intro screen-->
+      <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/ArthurKingOfMars/Images/AthurKingOfMarsLOTL.jpg">
+      <img loading="lazy" src="Images/ArthurKingOfMars/Images/AthurKingOfMarsLOTL.jpg" width="400px" height= "300px" alt="Arthur King Of Mars Lady of the Lake.">
+      </a>
+      <div class="desc">レイディ・オブ・ザ・レイクのページ。</div>
+       </div>
+    </div>
+
+        <!--Lady of the lake Battle-->
+        <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/ArthurKingOfMars/Images/AthurKingOfMarsLOTL_Battle.jpg">      
+      <img loading="lazy" src="Images/ArthurKingOfMars/Images/AthurKingOfMarsLOTL_Battle.jpg" width="400px" height= "300px" alt="Arthur King Of Mars Battle with the Lady of the Lake.">
+      </a>
+      <div class="desc">レイディ・オブ・ザ・レイクと戦う。</div>
+       </div>
+    </div>
+
+              <!--Morgana's Intro-->
+        <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/ArthurKingOfMars/Images/AthurKingOfMarsMorgana.jpg">      
+      <img loading="lazy" src="Images/ArthurKingOfMars/Images/AthurKingOfMarsMorgana.jpg" width="400px" height= "300px" alt="Arthur King Of Mars Morgana.">
+        </a>
+      <div class="desc">モルガナのページ。</div>
+       </div>
+    </div>
+        <!--Morgana Battle-->
+          <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/ArthurKingOfMars/Images/AthurKingOfMarsMorganaBattle.jpg">      
+      <img loading="lazy" src="Images/ArthurKingOfMars/Images/AthurKingOfMarsMorganaBattle.jpg" width="400px" height= "300px" alt="Arthur King Of Mars Battle with Morgana">
+       </a>
+      <div class="desc">モルガナと戦う。</div>
+       </div>
+    </div>
+
+       <!--Merlin Intro-->
+       <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/ArthurKingOfMars/Images/AthurKingOfMarsMerlin.jpg">      
+      <img loading="lazy" src="Images/ArthurKingOfMars/Images/AthurKingOfMarsMerlin.jpg" width="400px" height= "300px" alt="Arthur King Of Mars Merlin.">
+      </a>
+      <div class="desc">マーリンのページ。</div>
+       </div>
+    </div>
+
+            <!--Merlin battle-->
+       <div class = "responsive">
+        <div class = "gallery">
+          <a target="_blank" href= "Images/ArthurKingOfMars/Images/AthurKingOfMarsMerlinAscendedBattle.jpg">      
+        <img loading="lazy" src="Images/ArthurKingOfMars/Images/AthurKingOfMarsMerlinAscendedBattle.jpg" width="400px" height= "300px" alt="Arthur King Of Mars Battle with Merlin Ascended.">    
+       </a>
+      <div class="desc">マーリン昇天と戦う。</div>
+       </div>
+    </div>
+<div class = "clearfix"></div>
+
+      <!--Gifs (Will check this later)-->
+      <h3>ギフ</h3>
+
+      <!--Arthur's Gifs-->
+        <h4>アーサー王</h4>
+   <div class = "responsive">
+      <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_SwordSwing.gif" alt="Sword Swing.">-->
+             <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_SwordSwing.mp4" type="video/mp4">
+    </video>
+      </div>
+      </div>
+      <div class = "responsive">
+      <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_AirDash.gif" alt="AirDash.">-->
+        <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_AirDash.mp4" type="video/mp4">
+    </video>
+       </div>
+      </div>
+      <!--Lady of the Lake's Gifs-->
+         <h4>レイディ・オブ・ザ・レイク</h4>
+     <div class = "responsive">
+      <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL.gif" alt="Lady Of The Lake Intro.">-->
+        <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL.mp4" type="video/mp4">
+    </video>
+     </div>
+      </div>
+
+      <div class = "responsive">
+       <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_WaterGeyser.gif" alt="Water Geyser.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_WaterGeyser.mp4" type="video/mp4">
+    </video>
+      </div>
+       </div>
+
+      <div class = "responsive">
+      <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_AquaShot.gif" alt="Aqua Shot.">-->
+           <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_AquaShot.mp4" type="video/mp4">
+    </video>
+      </div>
+      </div>
+
+    <div class = "responsive">
+      <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_Teleport.gif" alt="Teleport.">-->
+           <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_Teleport.mp4" type="video/mp4">
+    </video>
+       </div>
+      </div>
+      
+    <div class = "responsive">
+      <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_RisingRocks.gif" alt="Rising Rocks.">-->
+         <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_RisingRocks.mp4" type="video/mp4">
+    </video>
+     </div>
+      </div>
+      
+      <div class = "responsive">
+       <div class = "gif"> 
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_SpinningGeyser.gif" alt="Spinning Geyser.">-->
+          <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_LOTL_SpinningGeyser.mp4" type="video/mp4">
+    </video>
+       </div>
+      </div>
+      
+       <h4>モルガナ</h4>
+       <div class = "responsive">
+      <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_Morgana.gif" alt="Morgana Intro.">-->
+         <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_Morgana.mp4" type="video/mp4">
+    </video>
+       </div>
+      </div>
+      <div class = "responsive">
+       <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_Morgana_Leeches.gif" alt="Morgana Leeches.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_Morgana_Leeches.mp4" type="video/mp4">
+    </video>
+       </div>
+      </div>
+     <div class = "responsive">
+       <div class = "gif">   
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_Morgana_Tentacle.gif" alt="Morgana Tentacles.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_Morgana_Tentacle.mp4" type="video/mp4">
+    </video>
+      </div>
+      </div>
+
+      <div class = "responsive">
+       <div class = "gif">  
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_Morgana_Giant_Leeches.gif" alt="Morgana Giant Leeches.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_Morgana_Giant_Leeches.mp4" type="video/mp4">
+    </video>
+       </div>
+       </div>
+      
+     <h4>マーリン/マーリン昇天</h4>
+       <div class = "responsive">
+       <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_Merlin.gif" alt="Merlin Intro.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_Merlin.mp4" type="video/mp4">
+    </video>
+        </div>
+        </div>
+      
+      <div class = "responsive">
+      <div class = "gif">  
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_Merlin_MagicOrb.gif" alt="Merlin Magic Orb.">-->
+           <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_Merlin_MagicOrb.mp4" type="video/mp4">
+    </video>
+       </div>
+      </div>
+
+      <div class = "responsive">
+       <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_MA.gif" alt="Merlin Ascended Intro.">-->
+            <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_MA.mp4" type="video/mp4">
+    </video>
+        </div>
+      </div>
+        <div class = "responsive">
+        <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_MA_AscendedMagicOrb.gif" alt="Merlin Ascended, Ascended Magic Orb.">-->
+             <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_MA_AscendedMagicOrb.mp4" type="video/mp4">
+    </video>
+       </div>
+        </div>
+      
+        <div class = "responsive">
+        <div class = "gif">
+      <!--<img loading="lazy" src="Images/ArthurKingOfMars/Gifs/AKOM_MA_Tentacle.gif" alt="Merlin Ascended, Ascended Tentacles.">-->
+             <video autoplay loop muted playsinline> 
+      <source src="Images/ArthurKingOfMars/Gifs/AKOM_MA_Tentacle.mp4" type="video/mp4">
+    </video>
+         </div>
+        </div>    
+      
+      <h3>映像</h3>
+        <h4>メカニックスオーバービュートレーラー</h4>
+ <div class = "responsive">
+<div class ="video">
+<iframe loading="lazy" width="560" height="315"
+  src="https://www.youtube.com/embed/rj8vJW8Hu_0?si=Ik0EGv68VxpTHneM"
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>       
+  </iframe>
+   </div>
+</div>   
+       
+        <h4>完全なゲームプレイ</h4>
+ <div class = "responsive">
+<div class ="video">
+<iframe loading="lazy" width="560" height="315" 
+  src="https://www.youtube.com/embed/ZPcLHicBVTI?si=tauQUd820Tdr9OnP" 
+  title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>       
+  </iframe>
+ </div>
+</div>   
+
+    </section>
+
+      <!--Story section-->
+    <section id = "synopsis">
+      <h2>体験版の物語</h2>
+      <div class = "text">
+    <p>Hundreds of years ago King Arthur sealed himself away under Britain, waiting to spring forth at its moment of most dire need.... Well, that came and went.<br>
+       Britain has moved to Mars and you wake up a few hundred years too late. Your former friends rather disgruntled at this, need you to prove yourself worthy of calling yourself King Arthur.<br>  
+       Battle through three boss fights to reclaim what you have lost; Excalibur, your Crown and the respect of your closest friend.</p>
+      </div>
+    </section>
+     <!--Rights & Plugins section-->
+    <section id = "portfolios">
+      <h2>体験版をダウンロード</h2>
+        <a href="https://digital-pie.itch.io/arthur-king-of-mars">Itch.Io ページを訪れて体験版をダウンロードをください。</a>
+
+      <h4>チームのポートフォリオ</h4>
+        <p>チームのポートフォリオを見てください:</p>
+         <p>デザイン: </p>
+      
+          <p>George Brown: <a href="https://digital-pie.itch.io/">George Brown's itch.io</a></p>
+          <p>Adam Gibbs: <a href="https://www.artstation.com/adamgibbs">Adam Gibbs's Artstation</a></p>
+      
+        <p>アート: </p>
+     
+        <p>Laura Minns: <a href="https://www.artstation.com/lauraminns">Laura Minn's Artstation</a></p>
+        <p>Anna Maria Manners: <a href="https://www.artstation.com/annamariamanners">Anna Maria Manners's Artstation</a></p>
+        <p>Constance Graham: <a href="https://www.artstation.com/constance_graham">Constance Graham's Artstation</a></p>
+        <p>Lee Alton-Willams: <a href="https://itch.io/profile/peatea">Lee Alton-Willams's itch.io</a></p>
+        <p>James Fox: <a href="https://www.artstation.com/jfoxzero">James Fox's Artstation</a></p>
+        <p>Milosz Sankowski: <a href="https://www.artstation.com/miloszsankowski">Milosz Sankowski's Artstation</a></p>
+        <p>Keenan Smith: 2021 VFX </p>
+    
+      <p>オーディオ: </p>
+          
+          <p>Ella Barrett: Audio Sourcing and creation.</p>
+      
+    </section>
+
+
+     <!--Footer section-->
+      <div class = "projectMargin"></div>
+    <footer class = "aKOM">
+      <section id= "contact">
+      <h4>お問い合わせ・SNS</h4>
+        <p>英国の電話番号: 07592784198</p>
+        <p>メール: harryjameslinford@gmail.com </p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/harry-james-linford/">/www.linkedin.com/in/harry-james-linford/</a></p>
+        <p>Line: Harry-James Linford</p>
+        <!--<p>Discord: elder483</p>-->
+        
+      </section>
+    </footer>
+  </body>
+</div>
+</html>
