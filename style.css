@@ -93,7 +93,7 @@ h1
 {
     background-color: rgba(210,207,152,0.5);
      border: 3px solid rgb(47,235,255);
-     font-family: "Zen Antique Soft", sans-serif; /*NEED TO FIND A FONT THAT SUITS*/
+     font-family: "Zen Antique Soft", serif; /*NEED TO FIND A FONT THAT SUITS*/
      font-weight: 400;/*HAD !important*/
 }
 
@@ -562,7 +562,7 @@ font-weight: 400;}/*HAD !important*/
 
 .wHeart h2
 {
-     font-family: "Zen Antique Soft", sans-serif; 
+     font-family: "Zen Antique Soft", serif; 
      font-weight: 400;/*HAD !important*/
 }
 
@@ -626,7 +626,7 @@ h3
 
 .wHeart h3
 {
-     font-family: "Zen Antique Soft", sans-serif; 
+     font-family: "Zen Antique Soft", serif; 
      font-weight: 400;/*HAD !important*/
 }
 
@@ -688,7 +688,7 @@ h4
 
 .wHeart h4
 {
-     font-family: "Zen Antique Soft", sans-serif; 
+     font-family: "Zen Antique Soft", serif; 
      font-weight: 400;/*HAD !important*/
 }
 
@@ -868,7 +868,7 @@ h5
 
 .wHeart h5
 {
-     font-family: "Zen Antique Soft", sans-serif; 
+     font-family: "Zen Antique Soft", serif; 
      font-weight: 400;/*HAD !important*/
 } 
 
