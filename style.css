@@ -1,6 +1,8 @@
-*{
+{
     box-sizing: border-box;
 }
+
+/*There was a * before {box-sizing} just check if this works*/
 /*Variables*/
 .index {/*Mustard Yellow*/--active-color: rgba(232,201,0,0.75);}
 .skills {/*Silver*/--active-color: rgba(125,134,135,0.75);}
