@@ -1004,7 +1004,7 @@ div.coinOp.initialImage
 div.coinOp.initialImage:hover{border-radius: 0px 15px 15px 15px; border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(255,25,175); box-shadow: 2px 2px 2px 2px  rgba(255,25,175,0.5);}
 
 
-div.coinOP.gallery, div.coinOP.gif, div.coinOP.video
+div.coinOp.gallery, div.coinOp.gif, div.coinOp.video
 {
     border: 6px solid rgba(173,173,173,0.5);
 }
