@@ -20,7 +20,7 @@
 .suzaku {/*Brown*/--active-color: rgba(96,65,35,0.75);}
 .sakuraCell {/*Peach*/--active-color: rgba(238,198,152,0.75);}
 .robot {/*DarkGreen*/--active-color: rgba(41,124,108,0.75);}
-
+.wHeart {/*Copper*/--active-color: rgba(184,95,51,0.75);}
 
 
 h1
@@ -87,6 +87,14 @@ h1
      border: 3px solid rgb(57,21,93);
      font-family: "Dela Gothic One", sans-serif; /*HAD !important*/
      font-weight: 400;
+}
+
+.wHeart h1
+{
+    background-color: rgba(210,207,152,0.5);
+     border: 3px solid rgb(47,235,255);
+     font-family: "Zen Antique Soft", sans-serif; /*NEED TO FIND A FONT THAT SUITS*/
+     font-weight: 400;/*HAD !important*/
 }
 
 .coinOp h1
@@ -265,6 +273,11 @@ ul.topnav a.rd2.active
 {
     /*Cyan*/
     background-color: rgba(23,211,247,0.75);
+}
+
+ul.topnav a.wHeart.active
+{/*Copper*/
+    background-color: rgba(184,95,51,0.75);
 }
 
 ul.topnav a.coinOp.active 
@@ -547,6 +560,12 @@ h2
 {font-family: "Dela Gothic One", sans-serif;
 font-weight: 400;}/*HAD !important*/
 
+.wHeart h2
+{
+     font-family: "Zen Antique Soft", sans-serif; 
+     font-weight: 400;/*HAD !important*/
+}
+
 .coinOp h2{font-family: "Rampart One", sans-serif;
            font-weight: 400;} /*HAD !important*/
 
@@ -605,6 +624,12 @@ h3
     font-weight: 400;/*HAD !important*/
 }
 
+.wHeart h3
+{
+     font-family: "Zen Antique Soft", sans-serif; 
+     font-weight: 400;/*HAD !important*/
+}
+
 .coinOp h3{font-family: "Rampart One", sans-serif;
            font-weight: 400;}/*HAD !important*/
 
@@ -661,7 +686,11 @@ h4
     font-weight: 400;
 }
 
-
+.wHeart h4
+{
+     font-family: "Zen Antique Soft", sans-serif; 
+     font-weight: 400;/*HAD !important*/
+}
 
 .coinOp h4{font-family: "Rampart One", sans-serif;
            font-weight: 400;} /*HAD !important*/
@@ -699,6 +728,13 @@ h4
 .robot h4{font-family: "RocknRoll One", sans-serif;
           font-weight: 400;}
 
+/*Wound Hearts colours may need changing*/
+#WoundHeartTitle h4
+{
+        -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: rgba(210,207,152,0.5);
+         text-shadow: 4px 4px 4px rgba(210,207,152,0.5);
+}
 
   #coinopcapitalTitle h4
     {
@@ -830,6 +866,12 @@ h5
     font-weight: 400;
 }
 
+.wHeart h5
+{
+     font-family: "Zen Antique Soft", sans-serif; 
+     font-weight: 400;/*HAD !important*/
+} 
+
 .coinOp h5{font-family: "Rampart One", sans-serif;
            font-weight: 400;}
 
@@ -937,10 +979,23 @@ div.rd2.gif:hover  ,div.rd2.video:hover, div.rd2.gallery:hover{border-radius: 0p
 
 div.rd2.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgba(23,211,247,1); box-shadow: 2px 2px 2px 2px  rgba(23,211,247,0.5);}
 
-div.coinOp.gallery, div.coinOp.gif, div.coinOp.video
+div.wHeart.gallery, div.wHeart.gif, div.wHeart.video
+{border: 3px solid rgba(184,95,51,0.75);}
+
+div.wHeart.initialImage
+{border: 3px solid rgba(184,95,51,0.75);}
+
+div.wHeart.initialImage:hover{border-radius: 0px 15px 15px 15px; border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(47,235,255); box-shadow: 2px 2px 2px 2px  rgba(47,235,255);}
+
+
+
+div.wHeart.gif:hover  ,div.wHeart.video:hover, div.wHeart.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(47,235,255); box-shadow: 2px 2px 2px 2px  rgba(47,235,255);}
+
+
+div.wHeart.gallery, div.wHeart.gif, div.wHeart.video
 
 {
-    border: 6px solid rgba(173,173,173,0.5);
+  border: 3px solid rgba(184,95,51,0.75);
 }
 
 div.coinOp.initialImage
@@ -1350,6 +1405,17 @@ div.rd2 a:visited
      background-color: var(--active-color);
 }
 
+div.wHeart a
+{
+    background-color: var(--active-color);
+}
+
+div.wHeart a:visited
+{
+     background-color: var(--active-color);
+}
+
+
 div.coinOp a
 {
     background-color: var(--active-color);
@@ -1539,6 +1605,13 @@ footer.rd2
      background-color: rgba(255,0,221,0.5);
      border: 3px solid rgb(57,21,93);
      border-bottom: none;
+}
+
+footer.wHeart
+{
+    background-color: rgba(210,207,152,0.5);
+     border: 3px solid rgb(47,235,255);
+      border-bottom: none;
 }
 
 footer.coinOp 
