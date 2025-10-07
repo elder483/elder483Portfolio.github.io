@@ -979,6 +979,8 @@ div.rd2.gif:hover  ,div.rd2.video:hover, div.rd2.gallery:hover{border-radius: 0p
 
 div.rd2.initialImage:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgba(23,211,247,1); box-shadow: 2px 2px 2px 2px  rgba(23,211,247,0.5);}
 
+/*Wound Heart*/
+
 div.wHeart.gallery, div.wHeart.gif, div.wHeart.video
 {border: 3px solid rgba(184,95,51,0.75);}
 
@@ -991,12 +993,8 @@ div.wHeart.initialImage:hover{border-radius: 0px 15px 15px 15px; border-radius: 
 
 div.wHeart.gif:hover  ,div.wHeart.video:hover, div.wHeart.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(47,235,255); box-shadow: 2px 2px 2px 2px  rgba(47,235,255);}
 
+/*Coin OP*/
 
-div.wHeart.gallery, div.wHeart.gif, div.wHeart.video
-
-{
-  border: 3px solid rgba(184,95,51,0.75);
-}
 
 div.coinOp.initialImage
 {
@@ -1005,6 +1003,11 @@ div.coinOp.initialImage
 
 div.coinOp.initialImage:hover{border-radius: 0px 15px 15px 15px; border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(255,25,175); box-shadow: 2px 2px 2px 2px  rgba(255,25,175,0.5);}
 
+
+div.coinOP.gallery, div.coinOP.gif, div.coinOP.video
+{
+    border: 6px solid rgba(173,173,173,0.5);
+}
 
 
 div.coinOp.gif:hover  ,div.coinOp.video:hover, div.coinOp.gallery:hover{border-radius: 0px 15px 15px 15px; border: 6px solid  rgb(255,25,175); box-shadow: 2px 2px 2px 2px  rgba(255,25,175,0.5);}
